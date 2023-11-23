@@ -1,0 +1,26 @@
+- name: Patrick Ebel
+  photo: rock.jpg
+  info: Junior Research Group Leader
+  email: ebel@uni-leipzig.de
+  website: https://ebel.myportfolio.com
+  github: https://github.com/patebel
+  number_educ: 2
+  education1: (2023) CIAO SCADS 
+  education2: (2023) PhD, Computer Science, University of Cologne
+
+- name: Martin Lorenz
+  photo: rock.jpg
+  info: PhD Student, started August 2023
+  email: exampleemail@gmail.com
+  github: https://github.com/martinoz1024
+  number_educ: 2
+  education1: (2022) M. Sc. Computer Science, University of Leipzig
+  education2: (2020) B. Sc. Computer Science, University of Leipzig
+
+
+- name: Timur Getselev
+  photo: rock.jpg
+  number_educ: 1
+  email: exampleemail@gmail.com
+  github: https://github.com/xxWatcher
+  education1: (current) B. Sc. Digital Humanities, University of Leipzig
