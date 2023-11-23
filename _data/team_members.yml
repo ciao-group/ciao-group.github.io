@@ -1,7 +1,7 @@
 - name: Patrick Ebel
   photo: rock.jpg
-  info: Junior Research Group Leader
-  email: ebel@uni-leipzig.de
+  info: PhD, Junior Research Group Leader
+  email: https://www.uni-leipzig.de/en/profile/mitarbeiter/patrick-ebel
   website: https://ebel.myportfolio.com
   github: https://github.com/patebel
   number_educ: 2
@@ -20,6 +20,7 @@
 
 - name: Timur Getselev
   photo: rock.jpg
+  info: Student Assistant
   number_educ: 1
   email: exampleemail@gmail.com
   github: https://github.com/xxWatcher

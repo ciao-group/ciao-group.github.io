@@ -46,14 +46,15 @@
 
 // Generate the small columns
 @mixin make-sm-column($columns, $gutter: $grid-gutter-width) {
-  position: relative;
   min-height: 1px;
   padding-left:  ($gutter / 2);
   padding-right: ($gutter / 2);
 
   @media (min-width: $screen-sm-min) {
-    float: left;
+    float: right;
     width: percentage(($columns / $grid-columns));
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @mixin make-sm-column-offset($columns) {
