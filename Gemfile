@@ -6,4 +6,5 @@ source 'https://rubygems.org'
 gem "jekyll", "<4.0.0"
 gem "thin"
 gem 'kramdown-parser-gfm'
+gem 'jekyll-sass-converter', '1.5.2'
 

@@ -66,6 +66,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (< 4.0.0)
+  jekyll-sass-converter (= 1.5.2)
   kramdown-parser-gfm
   thin
 
