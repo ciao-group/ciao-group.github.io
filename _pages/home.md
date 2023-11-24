@@ -8,6 +8,7 @@ permalink: /
 <style>
 code {padding: 6px 8px; font-size: 90%;}
 .row h2 {padding: 16px 16px}
+.row h4 {padding: 16px 16px}
 .row p {padding: 16px 16px}
 .hero {padding: 50px 0; border-radius: 10px;}
 .hero h1 {font-size: 3em;}
