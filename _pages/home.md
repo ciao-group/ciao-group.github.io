@@ -32,7 +32,7 @@ code {padding: 6px 8px; font-size: 90%;}
 </div>
 
 <div class="row">
-  <h3>Who are we!=?</h4>
+  <h4>Who are we?</h4>
   <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction, and mobility. <br>
   We develop computational models that simulate human-like interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. We develop models that are either data-driven (using usage data collected from customers) or based on computational rationality. 
   <br><br>
