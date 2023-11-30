@@ -3,7 +3,7 @@
 - title: Destination Prediction Based on Partial Trajectory Data
   authors: Patrick Ebel, Ibrahim Emre Göl, Christoph Lingenfelder, Andreas Vogelsang
   url: Paper4
-  image: ""
+  image: Paper4.png
   display: IEEE Intelligent Vehicles Symposium
   year: 2020
   arxiv: 2004.07473
@@ -12,7 +12,7 @@
 - title: "Automotive UX design and data-driven development: Narrowing the gap to support practitioners"
   authors: Patrick Ebel, Julia Orlovska, Sebastian Hünemeyer, Casper Wickman, Andreas Vogelsang, Rikard Soederberg 
   url: Paper10
-  image: ""
+  image: Paper10.png
   display: Transportation Research Interdisciplinary Perspectives
   year: 2021
   doi: 
@@ -21,7 +21,7 @@
 - title: "Exploring Millions of User Interactions with ICEBOAT: Big Data Analytics for Automotive User Interfaces"
   authors: Patrick Ebel, Kim Julian Gülle, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper5
-  image: ""
+  image: Paper5.png
   display: on Automotive User Interfaces and Interactive Vehicular Applications (Auto- motiveUI, 23),
   year: 2023
   doi: 10.1145/3580585.3607158
@@ -31,7 +31,7 @@
 - title: "How Do Drivers Self-Regulate their Secondary Task Engagements? The Effect of Driving Automation on Touchscreen Interactions and Glance Behavior"
   authors: Patrick Ebel, Moritz Berger, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper6
-  image: ""
+  image: Paper6.png
   display: 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 22)
   year: 2022
   doi: 10.1145/3543174.3545173
@@ -41,7 +41,7 @@
 - title: "Measuring Interaction-based Secondary Task Load: A Large-Scale Approach using Real-World Driving Data"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper7
-  image: ""
+  image: Paper7.png
   display: 
   year: 2021
   doi: 10.1145/3473682.3480252
@@ -51,7 +51,7 @@
 - title: "Multitasking While Driving: How Drivers Self- Regulate Their Interaction with In-Vehicle Touchscreens in Automated Driving"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper9
-  image: "" 
+  image: Paper9.png
   display: International Journal of Human-Computer Interaction
   year: 2023
   doi: 10.1080/10447318.2023.2215634
@@ -61,7 +61,7 @@
 - title: "Visualizing Event Sequence Data for User Behavior Evaluation of In-Vehicle Information Systems"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper8
-  image: "" 
+  image: Paper8.png
   display: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’21),
   year: 2021
   doi: 10.1145/3409118.3475140
@@ -71,7 +71,7 @@
 - title: "Data-Driven Evaluation of In-Vehicle Information Systems"
   authors: Patrick Ebel
   url: Paper3
-  image: ""
+  image: Paper3.png
   display: Dissertation
   year: 2023
   abstract: "Today’s In-Vehicle Information Systems (IVISs) are feature-rich systems that provide the driver with numerous options for entertainment, information, comfort, and commu- nication. Drivers can stream their favorite songs, read reviews of nearby restaurants, or change the ambient lighting to their liking. To do so, they interact with large center stack touchscreens that have become the main interface between the driver and IVISs. To interact with these systems, drivers must take their eyes off the road which can im- pair their driving performance. This makes IVIS evaluation critical not only to meet customer needs but also to ensure road safety. The growing number of features, the dis- traction caused by large touchscreens, and the impact of driving automation on driver behavior pose significant challenges for the design and evaluation of IVISs. Tradition- ally, IVISs are evaluated qualitatively or through small-scale user studies using driving simulators. However, these methods are not scalable to the growing number of features and the variety of driving scenarios that influence driver interaction behavior. We ar- gue that data-driven methods can be a viable solution to these challenges and can assist automotive User Experience (UX) experts in evaluating IVISs. Therefore, we need to understand how data-driven methods can facilitate the design and evaluation of IVISs, how large amounts of usage data need to be visualized, and how drivers allocate their visual attention when interacting with center stack touchscreens.
@@ -85,7 +85,7 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
 - title: "On the forces of driver distraction: Explainable predictions for the visual demand of in-vehicle touchscreen interactions"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper2
-  image: "" 
+  image: Paper2.png
   display: 
   year: 2023
   doi: 10.1016/j.aap.2023.106956
@@ -95,9 +95,9 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
 - title: "The Role and Potentials of Field User Interaction Data in the Automotive UX Development Lifecycle: An Industry Perspective"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper1
-  image: "" 
+  image: Paper1.png
   display: 
-  year: 2020
+  year: 2021
   doi: 10.1145/3409120.3410638
   arxiv: 
   abstract: "We are interested in the role of field user interaction data in the de- velopment of In-Vehicle Information Systems (IVISs), the potentials practitioners see in analyzing this data, the concerns they share, and how this compares to companies with digital products. We conducted interviews with 14 UX professionals, 8 from automotive and 6 from digital companies, and analyzed the results by emergent thematic coding. Our key findings indicate that implicit feedback through field user interaction data is currently not evident in the automotive UX development process. Most decisions regarding the design of IVISs are made based on personal preferences and the intuitions of stakeholders. However, the interviewees also indicated that user interaction data has the potential to lower the influence of guesswork and assumptions in the UX design process and can help to make the UX development lifecycle more evidence-based and user-centered."

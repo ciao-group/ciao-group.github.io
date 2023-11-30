@@ -9,36 +9,36 @@ permalink: /team/
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
-## Our Team
+## Team Lead
 
-{% for member in site.data.pi %}
+{% for member in site.data.team_members %}
+{% if member.position == "lead" %}
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="18%" style="float: left" />
-  <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i><br>
   <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
-  {% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
-  {% if member.scholar %} <a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
+    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+    {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+    {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
   </p>
 
   <ul style="overflow: hidden">
-
   <li> {{ member.education1 }} </li>
-  <!-- <li> {{ member.education2 }} </li> -->
-
-
+  <li> {{ member.education2 }} </li>
+  <!-- Add other education fields as required -->
   </ul>
 </div>
-
+{% endif %}
 {% endfor %}
 
-
-## Current Students and Postdocs
+## PhD Students and Student Assistants
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-
+{% if member.position != "lead" %}
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
@@ -46,7 +46,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="38%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}<br></i>
   <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
@@ -59,7 +59,6 @@ permalink: /team/
   </p>
 
   <ul style="overflow: hidden">
-
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
@@ -98,7 +97,7 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
+{% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
