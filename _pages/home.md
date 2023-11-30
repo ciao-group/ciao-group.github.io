@@ -1,6 +1,6 @@
 ---
 title: "Home"
-layout: homelay
+layout: gridlay
 sitemap: false
 permalink: /
 ---

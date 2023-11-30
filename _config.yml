@@ -4,7 +4,7 @@ email: ciao-scads@protonmail.me
 description: "Focusing on the nexus of machine learning and human-computer interaction, SCADS CIAO Group models human-like behaviors in the context of automated vehicular technology."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ciao-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-affiliation: We are a part of <a href="http://scads.ai" target="_blank">SCADS.AI</a> at Leipzig University
+# affiliation: We are a part of <a href="http://scads.ai" target="_blank">SCADS.AI</a> at Leipzig University
 
 # Google analytics ID
 google_analytics: UA-XXXXX-Y # Put your actual GA identifier
@@ -19,8 +19,8 @@ location: >
    
 
 # Contact info. (shown in footer)
-contact: >
-    Email <a href="https://www.uni-leipzig.de/en/profile/mitarbeiter/patrick-ebel" target="_blank" style="color: blue;"> Patrick Ebel</a> to get in contact!
+# contact: >
+   # Email <a href="https://www.uni-leipzig.de/en/profile/mitarbeiter/patrick-ebel" target="_blank" style="color: blue;"> Patrick Ebel</a> to get in contact!
 
 
 
