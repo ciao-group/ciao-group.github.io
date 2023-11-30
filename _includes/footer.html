@@ -54,9 +54,15 @@
   
 		  <!-- Member Icons Column -->
 		  <div class="col-sm-4" style="display: flex; justify-content: center;">
-			<div style="margin-top: 18px;"> <!-- Adjust 'margin-top' to push icons lower -->
+			<div style="margin-top: 16px;"> <!-- Adjust 'margin-top' to push icons lower -->
 			  {% for member in site.data.pi %}
-				{% if member.website %}
+
+			  	{% if member.email %}
+			  	<a href="{{ member.email }}" target="_blank">
+				<i class="fa fa-envelope-square fa-2x"></i>
+			  	</a>
+				{% endif %}
+			 	{% if member.website %}
 				  <a href="{{ member.website }}" target="_blank">
 					<i class="fa fa-home fa-2x"></i>
 				  </a>
