@@ -16,6 +16,7 @@ permalink: /team/
 
 <div class="row">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="18%" style="float: left" />
+  <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i><br>
   <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
@@ -25,10 +26,11 @@ permalink: /team/
     {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
     {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
   </p>
-
+   <i> Research Interests: </i>
   <ul style="overflow: hidden">
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
   <!-- Add other education fields as required -->
   </ul>
 </div>

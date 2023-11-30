@@ -1,18 +1,19 @@
 - name: Patrick Ebel
   photo: Patrick.png
   info: PhD, Junior Research Group Leader
-  email: https://www.uni-leipzig.de/en/profile/mitarbeiter/patrick-ebel
+  email: ebel@uni-leipzig.de
   website: https://ebel.myportfolio.com
   github: https://github.com/patebel
   position: lead
-  number_educ: 2
-  education1: (2023) Lead at CIAO - SCADS.AI 
-  education2: (2023) PhD, Computer Science, University of Cologne
+  number_educ: 3
+  education1: User Behaviour Modelling
+  education2: Data-Driven Evalution Of UIs
+  education3: Naturalistic Driving Studies 
 
 - name: Martin Lorenz
   photo: Martin.png
   info: PhD Student, started August 2023
-  email: exampleemail@gmail.com
+  email: lorenz@informatik.uni-leipzig.de
   github: https://github.com/martinoz1024
   number_educ: 3
   education1: How humans adapt their behavior to multitasking
@@ -23,6 +24,6 @@
   photo: placeholder.png
   info: Student Assistant
   number_educ: 1
-  email: exampleemail@gmail.com
+  email: tg12lera@studserv.uni-leipzig.de
   github: https://github.com/xxWatcher
   education1: (current) B. Sc. Digital Humanities, University of Leipzig
