@@ -1,5 +1,8 @@
-# ciao-group.github.io
-
 # CIAO GROUP Academic Website
 
-Welcome to the CIAO Group academic website repository. This website, originally forked from Ethan Pickering's template, serves as a dynamic platform to showcase our research, publications, team, and academic endeavors.
+Welcome to the CIAO Group academic website repository. 
+
+This website is based on a template developed by Ethan Pickering. 
+You can find the original template and its resources at [Ethan Pickering's GitHub Repository](https://github.com/ethan-pickering/sbryngelson.github.io).
+
+
