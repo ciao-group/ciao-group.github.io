@@ -14,10 +14,10 @@
   info: PhD Student, started August 2023
   email: exampleemail@gmail.com
   github: https://github.com/martinoz1024
-  number_educ: 2
-  education1: (2022) M. Sc. Computer Science, University of Leipzig
-  education2: (2020) B. Sc. Computer Science, University of Leipzig
-
+  number_educ: 3
+  education1: How humans adapt their behavior to multitasking
+  education2: Multitasking while driving
+  education3: Situation awareness
 
 - name: Timur Getselev
   photo: placeholder.png
