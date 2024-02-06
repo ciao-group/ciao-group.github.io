@@ -22,7 +22,7 @@
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper7
   image: Paper7.png
-  display: 
+  display: 12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications
   year: 2021
   doi: 10.1145/3473682.3480252
   arxiv: 2108.13243
@@ -32,7 +32,7 @@
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper1
   image: Paper1.png
-  display: 
+  display: 12th International Conference on Automotive User Interfaces and Interactive Vehicular Applications
   year: 2021
   doi: 10.1145/3409120.3410638
   arxiv: 2007.10884
@@ -42,7 +42,7 @@
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper8
   image: Paper8.png
-  display: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’21),
+  display: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications
   year: 2021
   doi: 10.1145/3409118.3475140
   arxiv: 2108.01388 
@@ -52,7 +52,7 @@
   authors: Patrick Ebel, Moritz Berger, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper6
   image: Paper6.png
-  display: 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 22)
+  display: 14th International Conference on Automotive User Interfaces and Interactive Vehicular Applications
   year: 2022
   doi: 10.1145/3543174.3545173
   arxiv: 2207.04284
@@ -62,7 +62,7 @@
   authors: Patrick Ebel, Kim Julian Gülle, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper5
   image: Paper5.png
-  display: on Automotive User Interfaces and Interactive Vehicular Applications (Auto- motiveUI, 23),
+  display: 15th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications
   year: 2023
   doi: 10.1145/3580585.3607158
   arxiv: 2307.06089
@@ -96,7 +96,7 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper2
   image: Paper2.png
-  display: 
+  display: Accident Analysis & Prevention
   year: 2023
   doi: 10.1016/j.aap.2023.106956
   arxiv: 2301.02065
@@ -106,7 +106,7 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   authors: Patrick Ebel
   url: Paper11
   image: Paper11.png
-  display: 
+  display: MuM'23 Workshop on Interruptions and Attention Management: Exploring the Potential of Generative AI
   year: 2024
   doi: 
   arxiv: 
