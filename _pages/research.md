@@ -35,7 +35,7 @@ code {padding: 6px 8px; font-size: 90%;}
 </div>
 
 <div class="rowl1">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/CompRational.jpg" class="img-responsive" width="50%" style=" float: left; border-radius:7px" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/respic/CompRationalCar.png" class="img-responsive" width="50%" style=" float: left; border-radius:7px" />
   <h4 style="overflow: hidden"> Computationally Rational User Models </h4>
   <p style="overflow: hidden"> Computationally rational theories assume that users choose their behavior to maximize their expected utility, given their bounds. Applied to human-computer interaction, users interact with technology so that they can achieve an optimal outcome given their internal (e.g., cognition or perception) and external (e.g., environment or design of a tool) bounds. Thus, users adapt their behavioral policies or strategies to maximize their utility. These policies can be approximated via reinforcement learning, yielding verifiable predictions of user interaction behavior. Although machine learning is used to learn behavioral policies and make predictions, the formulated bounds (e.g., perceptual or motor constraints) limit the space of computable interaction strategies of the agent so that the interactions represent realistic human behavior. </p>
 </div>
