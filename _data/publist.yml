@@ -18,26 +18,6 @@
   doi: 10.1016/j.trip.2021.100455
   abstract: "The development and evaluation of In-Vehicle Information Systems (IVISs) is strongly based on insights from qualitative studies conducted in artificial contexts (e.g., driving simulators or lab experiments). However, the growing complexity of the systems and the uncertainty about the context in which they are used, create a need to augment qualitative data with quantitative data, collected during real-world driving. In contrast to many digital companies that are already successfully using data-driven methods, Original Equipment Manufacturers (OEMs) are not yet succeeding in releasing the potentials such methods offer. We aim to understand what prevents automotive OEMs from applying data-driven methods, what needs practitioners formulate, and how collecting and analyzing usage data from vehicles can enhance UX activities. We adopted a Multiphase Mixed Methods approach comprising two interview studies with more than 15 UX practitioners and two action research studies conducted with two different OEMs. From the four studies, we synthesize the needs of UX designers, extract limitations within the domain that hinder the application of data-driven methods, elaborate on unleveraged potentials, and formulate recommendations to improve the usage of vehicle data. We conclude that, in addition to modernizing the legal, technical, and organizational infrastructure, UX and Data Science must be brought closer together by reducing silo mentality and increasing interdisciplinary collaboration. New tools and methods need to be developed and UX experts must be empowered to make data-based evidence an integral part of the UX design process."
 
-- title: "Exploring Millions of User Interactions with ICEBOAT: Big Data Analytics for Automotive User Interfaces"
-  authors: Patrick Ebel, Kim Julian Gülle, Christoph Lingenfeld, Andreas Vogelsang
-  url: Paper5
-  image: Paper5.png
-  display: on Automotive User Interfaces and Interactive Vehicular Applications (Auto- motiveUI, 23),
-  year: 2023
-  doi: 10.1145/3580585.3607158
-  arxiv: 
-  abstract: "User Experience (UX) professionals need to be able to analyze large amounts of usage data on their own to make evidence-based design decisions. However, the design process for In-Vehicle Information Systems (IVISs) lacks data-driven support and effective tools for visualizing and analyzing user interaction data. Therefore, we pro- pose ICEBOAT1, an interactive visualization tool tailored to the needs of automotive UX experts to effectively and efficiently evalu- ate driver interactions with IVISs. ICEBOAT visualizes telematics data collected from production line vehicles, allowing UX experts to perform task-specific analyses. Following a mixed methods User- Centered Design (UCD) approach, we conducted an interview study (N=4) to extract the domain specific information and interaction needs of automotive UX experts and used a co-design approach (N=4) to develop an interactive analysis tool. Our evaluation (N=12) shows that ICEBOAT enables UX experts to efficiently generate knowledge that facilitates data-driven design decisions."
-
-- title: "How Do Drivers Self-Regulate their Secondary Task Engagements? The Effect of Driving Automation on Touchscreen Interactions and Glance Behavior"
-  authors: Patrick Ebel, Moritz Berger, Christoph Lingenfeld, Andreas Vogelsang
-  url: Paper6
-  image: Paper6.png
-  display: 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 22)
-  year: 2022
-  doi: 10.1145/3543174.3545173
-  arxiv: 
-  abstract: "With ever-improving driver assistance systems and large touch- screens becoming the main in-vehicle interface, drivers are more tempted than ever to engage in distracting non-driving-related tasks. However, little research exists on how driving automation affects drivers’ self-regulation when interacting with center stack touchscreens. To investigate this, we employ multilevel models on a real-world driving dataset consisting of 10,139 sequences. Our re- sults show significant differences in drivers’ interaction and glance behavior in response to varying levels of driving automation, vehi- cle speed, and road curvature. During partially automated driving, drivers are not only more likely to engage in secondary touchscreen tasks, but their mean glance duration toward the touchscreen also increases by 12 % (Level 1) and 20 % (Level 2) compared to manual driving. We further show that the effect of driving automation on drivers’ self-regulation is larger than that of vehicle speed and road curvature. The derived knowledge can facilitate the safety evalua- tion of infotainment systems and the development of context-aware driver monitoring systems."
-
 - title: "Measuring Interaction-based Secondary Task Load: A Large-Scale Approach using Real-World Driving Data"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
   url: Paper7
@@ -45,18 +25,18 @@
   display: 
   year: 2021
   doi: 10.1145/3473682.3480252
-  arxiv: 
+  arxiv: 2108.13243
   abstract: "With ever-improving driver assistance systems and large touch- screens becoming the main in-vehicle interface, drivers are more tempted than ever to engage in distracting non-driving-related tasks. However, little research exists on how driving automation affects drivers’ self-regulation when interacting with center stack touchscreens. To investigate this, we employ multilevel models on a real-world driving dataset consisting of 10,139 sequences. Our re- sults show significant differences in drivers’ interaction and glance behavior in response to varying levels of driving automation, vehi- cle speed, and road curvature. During partially automated driving, drivers are not only more likely to engage in secondary touchscreen tasks, but their mean glance duration toward the touchscreen also increases by 12 % (Level 1) and 20 % (Level 2) compared to manual driving. We further show that the effect of driving automation on drivers’ self-regulation is larger than that of vehicle speed and road curvature. The derived knowledge can facilitate the safety evalua- tion of infotainment systems and the development of context-aware driver monitoring systems."
 
-- title: "Multitasking While Driving: How Drivers Self- Regulate Their Interaction with In-Vehicle Touchscreens in Automated Driving"
+- title: "The Role and Potentials of Field User Interaction Data in the Automotive UX Development Lifecycle: An Industry Perspective"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
-  url: Paper9
-  image: Paper9.png
-  display: International Journal of Human-Computer Interaction
-  year: 2023
-  doi: 10.1080/10447318.2023.2215634
-  arxiv: 
-  abstract: "With modern infotainment systems, drivers are increasingly tempted to engage in secondary tasks while driving. Since distracted driving is already one of the main causes of fatal accidents, in-vehicle touchscreens must be as little distracting as possible. To ensure that these systems are safe to use, they undergo elaborate and expensive empirical testing, requiring fully functional prototypes. Thus, early-stage methods informing designers about the implication their design may have on driver distraction are of great value. This paper presents a machine learning method that, based on anticipated usage scenarios, predicts the visual demand of in-vehicle touchscreen interactions and provides local and global explanations of the factors influencing drivers’ visual attention allocation. The approach is based on large-scale natural driving data continuously collected from production line vehicles and employs the SHapley Additive exPlanation (SHAP) method to provide explanations leveraging informed design decisions. Our approach is more accurate than related work and identifies interactions during which long glances occur with 68 % accuracy and predicts the total glance duration with a mean error of 2.4s. Our explanations replicate the results of various recent studies and provide fast and easily accessible insights into the effect of UI elements, driving automation, and vehicle speed on driver distraction. The system can not only help designers to evaluate current designs but also help them to better anticipate and understand the implications their design decisions might have on future designs."
+  url: Paper1
+  image: Paper1.png
+  display: 
+  year: 2021
+  doi: 10.1145/3409120.3410638
+  arxiv: 2007.10884
+  abstract: "We are interested in the role of field user interaction data in the de- velopment of In-Vehicle Information Systems (IVISs), the potentials practitioners see in analyzing this data, the concerns they share, and how this compares to companies with digital products. We conducted interviews with 14 UX professionals, 8 from automotive and 6 from digital companies, and analyzed the results by emergent thematic coding. Our key findings indicate that implicit feedback through field user interaction data is currently not evident in the automotive UX development process. Most decisions regarding the design of IVISs are made based on personal preferences and the intuitions of stakeholders. However, the interviewees also indicated that user interaction data has the potential to lower the influence of guesswork and assumptions in the UX design process and can help to make the UX development lifecycle more evidence-based and user-centered."
 
 - title: "Visualizing Event Sequence Data for User Behavior Evaluation of In-Vehicle Information Systems"
   authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
@@ -65,8 +45,38 @@
   display: 13th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI ’21),
   year: 2021
   doi: 10.1145/3409118.3475140
-  arxiv: 
+  arxiv: 2108.01388 
   abstract: "With modern In-Vehicle Information Systems (IVISs) becoming more capable and complex than ever, their evaluation becomes in- creasingly difficult. The analysis of large amounts of user behavior data can help to cope with this complexity and can support UX experts in designing IVISs that serve customer needs and are safe to operate while driving. We, therefore, propose a Multi-level User Behavior Visualization Framework providing effective visualiza- tions of user behavior data that is collected via telematics from production vehicles. Our approach visualizes user behavior data on three different levels: (1) The Task Level View aggregates event sequence data generated through touchscreen interactions to vi- sualize user flows. (2) The Flow Level View allows comparing the individual flows based on a chosen metric. (3) The Sequence Level View provides detailed insights into touch interactions, glance, and driving behavior. Our case study proves that UX experts consider our approach a useful addition to their design process."
+
+- title: "How Do Drivers Self-Regulate their Secondary Task Engagements? The Effect of Driving Automation on Touchscreen Interactions and Glance Behavior"
+  authors: Patrick Ebel, Moritz Berger, Christoph Lingenfeld, Andreas Vogelsang
+  url: Paper6
+  image: Paper6.png
+  display: 4th International Conference on Automotive User Interfaces and Interactive Vehicular Applications (AutomotiveUI 22)
+  year: 2022
+  doi: 10.1145/3543174.3545173
+  arxiv: 2207.04284
+  abstract: "With ever-improving driver assistance systems and large touch- screens becoming the main in-vehicle interface, drivers are more tempted than ever to engage in distracting non-driving-related tasks. However, little research exists on how driving automation affects drivers’ self-regulation when interacting with center stack touchscreens. To investigate this, we employ multilevel models on a real-world driving dataset consisting of 10,139 sequences. Our re- sults show significant differences in drivers’ interaction and glance behavior in response to varying levels of driving automation, vehi- cle speed, and road curvature. During partially automated driving, drivers are not only more likely to engage in secondary touchscreen tasks, but their mean glance duration toward the touchscreen also increases by 12 % (Level 1) and 20 % (Level 2) compared to manual driving. We further show that the effect of driving automation on drivers’ self-regulation is larger than that of vehicle speed and road curvature. The derived knowledge can facilitate the safety evalua- tion of infotainment systems and the development of context-aware driver monitoring systems."
+
+- title: "Exploring Millions of User Interactions with ICEBOAT: Big Data Analytics for Automotive User Interfaces"
+  authors: Patrick Ebel, Kim Julian Gülle, Christoph Lingenfeld, Andreas Vogelsang
+  url: Paper5
+  image: Paper5.png
+  display: on Automotive User Interfaces and Interactive Vehicular Applications (Auto- motiveUI, 23),
+  year: 2023
+  doi: 10.1145/3580585.3607158
+  arxiv: 2307.06089
+  abstract: "User Experience (UX) professionals need to be able to analyze large amounts of usage data on their own to make evidence-based design decisions. However, the design process for In-Vehicle Information Systems (IVISs) lacks data-driven support and effective tools for visualizing and analyzing user interaction data. Therefore, we pro- pose ICEBOAT1, an interactive visualization tool tailored to the needs of automotive UX experts to effectively and efficiently evalu- ate driver interactions with IVISs. ICEBOAT visualizes telematics data collected from production line vehicles, allowing UX experts to perform task-specific analyses. Following a mixed methods User- Centered Design (UCD) approach, we conducted an interview study (N=4) to extract the domain specific information and interaction needs of automotive UX experts and used a co-design approach (N=4) to develop an interactive analysis tool. Our evaluation (N=12) shows that ICEBOAT enables UX experts to efficiently generate knowledge that facilitates data-driven design decisions."
+
+- title: "Multitasking While Driving: How Drivers Self- Regulate Their Interaction with In-Vehicle Touchscreens in Automated Driving"
+  authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
+  url: Paper9
+  image: Paper9.png
+  display: International Journal of Human-Computer Interaction
+  year: 2023
+  doi: 10.1080/10447318.2023.2215634
+  arxiv: 2305.16042
+  abstract: "With modern infotainment systems, drivers are increasingly tempted to engage in secondary tasks while driving. Since distracted driving is already one of the main causes of fatal accidents, in-vehicle touchscreens must be as little distracting as possible. To ensure that these systems are safe to use, they undergo elaborate and expensive empirical testing, requiring fully functional prototypes. Thus, early-stage methods informing designers about the implication their design may have on driver distraction are of great value. This paper presents a machine learning method that, based on anticipated usage scenarios, predicts the visual demand of in-vehicle touchscreen interactions and provides local and global explanations of the factors influencing drivers’ visual attention allocation. The approach is based on large-scale natural driving data continuously collected from production line vehicles and employs the SHapley Additive exPlanation (SHAP) method to provide explanations leveraging informed design decisions. Our approach is more accurate than related work and identifies interactions during which long glances occur with 68 % accuracy and predicts the total glance duration with a mean error of 2.4s. Our explanations replicate the results of various recent studies and provide fast and easily accessible insights into the effect of UI elements, driving automation, and vehicle speed on driver distraction. The system can not only help designers to evaluate current designs but also help them to better anticipate and understand the implications their design decisions might have on future designs."
 
 - title: "Data-Driven Evaluation of In-Vehicle Information Systems"
   authors: Patrick Ebel
@@ -89,16 +99,17 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   display: 
   year: 2023
   doi: 10.1016/j.aap.2023.106956
-  arxiv: 
+  arxiv: 2301.02065
   abstract: "With modern infotainment systems, drivers are increasingly tempted to engage in secondary tasks while driving. Since distracted driving is already one of the main causes of fatal accidents, in-vehicle touchscreens must be as little distracting as possible. To ensure that these systems are safe to use, they undergo elaborate and expensive empirical testing, requiring fully functional prototypes. Thus, early-stage methods informing designers about the implication their design may have on driver distraction are of great value. This paper presents a machine learning method that, based on anticipated usage scenarios, predicts the visual demand of in-vehicle touchscreen interactions and provides local and global explanations of the factors influencing drivers’ visual attention allocation. The approach is based on large-scale natural driving data continuously collected from production line vehicles and employs the SHapley Additive exPlanation (SHAP) method to provide explanations leveraging informed design decisions. Our approach is more accurate than related work and identifies interactions during which long glances occur with 68 % accuracy and predicts the total glance duration with a mean error of 2.4s. Our explanations replicate the results of various recent studies and provide fast and easily accessible insights into the effect of UI elements, driving automation, and vehicle speed on driver distraction. The system can not only help designers to evaluate current designs but also help them to better anticipate and understand the implications their design decisions might have on future designs."
 
-- title: "The Role and Potentials of Field User Interaction Data in the Automotive UX Development Lifecycle: An Industry Perspective"
-  authors: Patrick Ebel, Christoph Lingenfeld, Andreas Vogelsang
-  url: Paper1
-  image: Paper1.png
+- title: "Generative AI and Attentive User Interfaces: Five Strategies to Enhance Take-Over Quality in Automated Driving"
+  authors: Patrick Ebel
+  url: Paper11
+  image: Paper11.png
   display: 
-  year: 2021
-  doi: 10.1145/3409120.3410638
+  year: 2024
+  doi: 
   arxiv: 
-  abstract: "We are interested in the role of field user interaction data in the de- velopment of In-Vehicle Information Systems (IVISs), the potentials practitioners see in analyzing this data, the concerns they share, and how this compares to companies with digital products. We conducted interviews with 14 UX professionals, 8 from automotive and 6 from digital companies, and analyzed the results by emergent thematic coding. Our key findings indicate that implicit feedback through field user interaction data is currently not evident in the automotive UX development process. Most decisions regarding the design of IVISs are made based on personal preferences and the intuitions of stakeholders. However, the interviewees also indicated that user interaction data has the potential to lower the influence of guesswork and assumptions in the UX design process and can help to make the UX development lifecycle more evidence-based and user-centered."
+  abstract: "As the automotive world moves toward higher levels of driving automation, Level 3 automated driving represents a critical juncture. In Level 3 driving, vehicles can drive alone under limited conditions, but drivers are expected to be ready to take over when the system requests. Assisting the driver to maintain an appropriate level of Situation Awareness (SA) in such contexts becomes a critical task. This position paper explores the potential of Attentive User Interfaces (AUIs) powered by generative Artificial Intelligence (AI) to address this need. Rather than relying on overt notifications, we argue that AUIs based on novel AI technologies such as large language models or diffusion models can be used to improve SA in an unconscious and subtle way without negative effects on drivers overall workload. Accordingly, we propose 5 strategies how generative AIs can be used to improve the quality of takeovers and, ultimately, road safety."
+
 
