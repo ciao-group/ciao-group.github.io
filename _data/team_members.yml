@@ -21,7 +21,7 @@
   education3: Situation awareness
 
 - name: Timur Getselev
-  photo: Timur.jpg
+  photo: Timur.png
   info: Student Assistant
   number_educ: 1
   email: tg12lera@studserv.uni-leipzig.de
@@ -34,4 +34,5 @@
   number_educ: 1
   email: juliette-michelle.burkhardt@mailbox.tu-dresden.de
   github: https://github.com/julie1802
-  education1: (current) M. Sc. Computer Science, TU Dresden, B. Sc. Psychology SRH Distance Learning University
+  education1: (current) M. Sc. Computer Science, TU Dresden
+  education2: (current) B. Sc. Psychology SRH Distance Learning University
