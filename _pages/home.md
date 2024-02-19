@@ -27,7 +27,7 @@ code {padding: 6px 8px; font-size: 90%;}
 
 
 <!-- Home Page Banner Image >-->
-<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 100%; height: auto;"
+<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 100%; height: auto;">
 
 
 <!-- Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools. >-->
