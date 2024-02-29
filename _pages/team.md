@@ -153,10 +153,13 @@ permalink: /team/
 </div>
 </div>
 {% endif %}
-
-
-
-## Administrative Support
-<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
-
 --> 
+
+
+## Final Theses
+- Hannah Bussmann: Biomechanical User Models for Mobile Device Control Based on Reinforcment Learning (Master Thesis, ongoing)
+- Moritz Wörmann: Generating Aesthetic UI Alternatives under Constraints (Bachelor Thesis, ongoing)
+- Niko Konzack: A Computationally Rational Model of Information Acquisition for Playing Atari Games (Master Thesis, ongoing)
+- Simon Lämmer: Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior (Master Thesis, ongoing)
+- Georg Schneeberger:  End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous Driving (Master Thesis, ongoing)
+
