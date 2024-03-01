@@ -15,7 +15,7 @@ permalink: /team/
 {% if member.position == "lead" %}
 
 <div class="row">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="18%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="38%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.info }}</i><br>
   <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
