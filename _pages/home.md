@@ -49,7 +49,6 @@ code {padding: 6px 8px; font-size: 90%;}
 <div class="row" style="text-align:center">
   <iframe style="display:inline-block; border-radius: 5px; border:0px solid #FFF; style="max-width: 80%; height: auto;" src="https://player.vimeo.com/video/912193151?byline=0&portrait=0" frameborder="0" allowfullscreen=""></iframe>
 
-  <p>Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools.</p>
-    <br><br>
-    <br><br>
+  <p>Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools.
+  </p>
 </div>
