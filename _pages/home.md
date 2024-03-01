@@ -19,7 +19,7 @@ code {padding: 6px 8px; font-size: 90%;}
 <div class="row">
   <h2>CIAO &#128075; </h2>
   <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction, and mobility. <br>
-  We develop computational models that simulate human-like interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. We develop models that are either data-driven (using usage data collected from customers) or based on computational rationality. 
+  We develop computational models that simulate human-like interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. We develop models that are either data-driven (based on usage data collected from customers) or based on computational rationality. 
   <br><br>
   We are part of the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University. ScaDS.AI Dresden/Leipzig is one of five new AI centers in Germany funded under the federal government’s AI strategy.
 </p>
