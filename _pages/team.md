@@ -157,7 +157,7 @@ permalink: /team/
 
 
 ## Final Theses
-- Hannah Bussmann: Biomechanical User Models for Mobile Device Control Based on Reinforcment Learning (Master Thesis, ongoing)
+- Hannah Bussmann: Biomechanical User Models for Mobile Device Control Based on Reinforcement Learning (Master Thesis, ongoing)
 - Moritz Wörmann: Generating Aesthetic UI Alternatives under Constraints (Bachelor Thesis, ongoing)
 - Niko Konzack: A Computationally Rational Model of Information Acquisition for Playing Atari Games (Master Thesis, ongoing)
 - Simon Lämmer: Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior (Master Thesis, ongoing)
