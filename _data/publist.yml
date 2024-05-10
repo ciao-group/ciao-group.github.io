@@ -112,4 +112,13 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv: 
   abstract: "As the automotive world moves toward higher levels of driving automation, Level 3 automated driving represents a critical juncture. In Level 3 driving, vehicles can drive alone under limited conditions, but drivers are expected to be ready to take over when the system requests. Assisting the driver to maintain an appropriate level of Situation Awareness (SA) in such contexts becomes a critical task. This position paper explores the potential of Attentive User Interfaces (AUIs) powered by generative Artificial Intelligence (AI) to address this need. Rather than relying on overt notifications, we argue that AUIs based on novel AI technologies such as large language models or diffusion models can be used to improve SA in an unconscious and subtle way without negative effects on drivers overall workload. Accordingly, we propose 5 strategies how generative AIs can be used to improve the quality of takeovers and, ultimately, road safety."
 
+- title: "Explaining the Unexplainable: The Impact of Misleading Explanations on Trust in Unreliable Predictions for Hardly Assessable Tasks"
+  authors: Mersedeh Sadeghi, Daniel Pöttgen, Patrick Ebel, Andreas Vogelsang
+  url: Paper12
+  image: Paper12.png
+  display: "32nd ACM Conference on User Modeling, Adaptation and Personalization"
+  year: 2024
+  doi: 
+  arxiv: 
+  abstract: "To increase trust in systems, engineers strive to create explanations that are as accurate as possible. However, if the system’s accuracy is compromised, providing explanations for its incorrect behavior may inadvertently lead to misleading explanations. This concern is particularly pertinent when the correctness of the system is difficult for users to judge. In an online survey experiment with 162 participants, we analyze the impact of misleading explanations on users’ perceived and demonstrated trust in a system that performs a hardly assessable task in an unreliable manner. Participants who used a system that provided potentially misleading explanations rated their trust significantly higher than participants who saw the system’s prediction alone. They also aligned their initial prediction with the system’s prediction significantly more often. Our findings underscore the importance of exercising caution when generating explanations, especially in tasks that are inherently difficult to evaluate. The paper and supplementary materials are available at https://doi.org/10.17605/osf.io/azu72"
 
