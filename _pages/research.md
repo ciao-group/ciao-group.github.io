@@ -43,6 +43,6 @@ code {padding: 6px 8px; font-size: 90%;}
 <div class="rowl1">
   <img src="{{ site.url }}{{ site.baseurl }}/images/respic/simulator.JPG" class="img-responsive" width="50%" style=" float: left; border-radius:7px" />
   <h4 style="overflow: hidden"> Mixed-Reality Driving Simulator </h4>
-  <p style="overflow: hidden"> To evaluate the computational models with human participants we aim mimic the real driving environment as closely as possible. Our mixed-reality driving simulator allows us to create an immersive driving and interaction experience. We exploit the immersiveness of virtual reality to simulate the driving environment but keep the vehicle interior real such that secondary task engagements (e.g., interactions with the center stack touchscreen) feel as real as possible. </p>
+  <p style="overflow: hidden"> To evaluate the computational models with human participants we to aim mimic the real driving environment as closely as possible. Our mixed-reality driving simulator allows us to create an immersive driving and interaction experience. We exploit the immersiveness of virtual reality to simulate the driving environment but keep the vehicle interior real such that secondary task engagements (e.g., interactions with the center stack touchscreen) feel as real as possible. </p>
 </div>
 
