@@ -10,9 +10,10 @@ permalink: /team/
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
 ## Team Lead
-
+{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 {% if member.position == "lead" %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
 
 <div class="col-sm-6 clearfix">
@@ -35,10 +36,21 @@ permalink: /team/
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <!-- Add other education fields as required -->
-  </ul>
+ </ul>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
 </div>
 {% endif %}
+{% endif %}
 {% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 ## PhD Students and Student Assistants
 {% assign number_printed = 0 %}
