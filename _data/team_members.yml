@@ -2,7 +2,7 @@
   photo: Patrick.png
   info: PhD, Junior Research Group Leader
   email: ebel@uni-leipzig.de
-  website: https://ebel.myportfolio.com
+  website: https://scholar.google.com/citations?user=nRW4gQQAAAAJ&hl=en
   github: https://github.com/patebel
   position: lead
   number_educ: 3
@@ -16,9 +16,9 @@
   email: lorenz@informatik.uni-leipzig.de
   github: https://github.com/martinoz1024
   number_educ: 3
-  education1: How humans adapt their behavior to multitasking
-  education2: Multitasking while driving
-  education3: Situation awareness
+  education1: Human Multitasking Behavior
+  education2: Reinforcement Learning
+  education3: Situation Awareness
 
 - name: Timur Getselev
   photo: Timur.png
@@ -26,7 +26,7 @@
   number_educ: 1
   email: tg12lera@studserv.uni-leipzig.de
   github: https://github.com/xxWatcher
-  education1: (current) B. Sc. Digital Humanities, University of Leipzig
+  education1: Mixed-Reality Driving Simulation
 
 - name: Juliette-Michelle Burkhardt
   photo: placeholder.png
@@ -34,5 +34,12 @@
   number_educ: 1
   email: juliette-michelle.burkhardt@mailbox.tu-dresden.de
   github: https://github.com/julie1802
-  education1: (current) M. Sc. Computer Science, TU Dresden
-  education2: (current) B. Sc. Psychology SRH Distance Learning University
+  education1: Mixed-Reality Driving Simulation
+
+- name: Hannah Bussmann
+  photo: placeholder.png
+  info: Student Assistant
+  number_educ: 1
+  email: hannah.bussmann@studserv.uni-leipzig.de
+  github:
+  education1: Biomechanical Modeling
