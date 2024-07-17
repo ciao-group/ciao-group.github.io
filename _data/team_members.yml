@@ -2,7 +2,7 @@
   photo: Patrick.png
   info: PhD, Junior Research Group Leader
   email: ebel@uni-leipzig.de
-  website: https://scholar.google.com/citations?user=nRW4gQQAAAAJ&hl=en
+  scholar: https://scholar.google.com/citations?user=nRW4gQQAAAAJ&hl=en
   github: https://github.com/patebel
   position: lead
   number_educ: 3
@@ -23,10 +23,11 @@
 - name: Timur Getselev
   photo: Timur.png
   info: Student Assistant
-  number_educ: 1
+  number_educ: 2
   email: tg12lera@studserv.uni-leipzig.de
   github: https://github.com/xxWatcher
   education1: Mixed-Reality Driving Simulation
+  education2: Large Language Models
 
 - name: Juliette-Michelle Burkhardt
   photo: placeholder.png

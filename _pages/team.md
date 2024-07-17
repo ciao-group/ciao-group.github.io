@@ -60,7 +60,7 @@ permalink: /team/
     {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
   </p>
 
-  <i> Research Area: </i>
+  <i> Research Interests: </i>
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
