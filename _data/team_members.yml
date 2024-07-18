@@ -11,7 +11,7 @@
 
 - name: Martin Lorenz
   photo: Martin.png
-  info: PhD Student, started August 2023
+  info: MSc, PhD Student
   email: lorenz@informatik.uni-leipzig.de
   github: https://github.com/martinoz1024
   number_educ: 3
@@ -30,7 +30,7 @@
 
 - name: Juliette-Michelle Burkhardt
   photo: placeholder.png
-  info: Student Assistant
+  info: BSc, Student Assistant
   number_educ: 1
   email: juliette-michelle.burkhardt@mailbox.tu-dresden.de
   github: https://github.com/julie1802
@@ -38,7 +38,7 @@
 
 - name: Hannah Bussmann
   photo: placeholder.png
-  info: Student Assistant
+  info: BSc, Student Assistant
   number_educ: 1
   email: hannah.bussmann@studserv.uni-leipzig.de
   github:
