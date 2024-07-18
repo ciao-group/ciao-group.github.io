@@ -9,7 +9,8 @@ permalink: /team/
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
-## Team Lead
+<!---
+## The Team
 
 {% for member in site.data.team_members %}
 {% if member.position == "lead" %}
@@ -37,8 +38,9 @@ permalink: /team/
 </div>
 {% endif %}
 {% endfor %}
+-->
 
-## PhD Students and Student Assistants
+## The Team
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 {% if member.position != "lead" %}
