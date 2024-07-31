@@ -5,7 +5,7 @@ sitemap: false
 permalink: /team/
 ---
 
-<!---  **We are looking for ...** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
+**We are looking for ...** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
