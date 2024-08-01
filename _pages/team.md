@@ -5,7 +5,7 @@ sitemap: false
 permalink: /team/
 ---
 
-You want to work with us? See our [open positions]({{ site.url }}{{ site.baseurl }}/vacancies).
+
 
 <!--- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
 
@@ -110,6 +110,10 @@ You want to work with us? See our [open positions]({{ site.url }}{{ site.baseurl
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+
+**You want to work with us? See our [open positions]({{ site.url }}{{ site.baseurl }}/vacancies).**
+
 
 <!-- 
 ## Alumni
