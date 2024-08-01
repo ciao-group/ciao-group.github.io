@@ -10,7 +10,7 @@ permalink: /team/
 
 **You want to work with us? See our [open positions]({{ site.url }}{{ site.baseurl }}/vacancies).**
 
-## Team Lead
+<!--- ## Team Lead
 
 {% for member in site.data.team_members %}
   {% if member.position == "lead" %}
