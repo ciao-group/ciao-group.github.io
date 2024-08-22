@@ -144,3 +144,14 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv:
   osf: qgxty
   abstract: "We review the state of open science and the perspectives on open data sharing within the automotive user research community. Openness and transparency are critical not only for judging the quality of empirical research, but also for accelerating scientific progress and promoting an inclusive scientific community. However, there is little documentation of these aspects within the automotive user research community. To address this, we report two studies that identify (1) community perspectives on motivators and barriers to data sharing, and (2) how openness and transparency have changed in papers published at AutomotiveUI over the past 5 years. We show that while open science is valued by the community and openness and transparency have improved, overall compliance is low. The most common barriers are legal constraints and confidentiality concerns. Although research published at AutomotiveUI relies more on quantitative methods than research published at CHI, openness and transparency are not as well established. Based on our findings, we provide suggestions for improving openness and transparency, arguing that the motivators for open science must outweigh the barriers. All supporting materials are freely available at: https://osf.io/zdpek/"
+
+- title: "It Is Not Always Just One Road User: Workshop on Multi-Agent Automotive Research"
+  authors: Pavlo Bazilinskyy, Patrick Ebel, Francesco Walker, Debargha Dey, Tram Thi Minh Tran
+  url: Paper15
+  image: Paper15.png
+  display: "16th International Conference on Automotive User Interfaces and Interactive Vehicular Applications"
+  year: 2024
+  doi:
+  arxiv:
+  osf:
+  abstract: "In the future, roads will host a complex mix of automated and manually operated vehicles, along with vulnerable road users. However, most automotive user interfaces and human factors research focus on single-agent studies, where one human interacts with one vehicle. Only a few studies incorporate multi-agent setups. This workshop aims to (1) examine the current state of multi-agent research in the automotive domain, (2) serve as a platform for discussion toward more realistic multi-agent setups, and (3) discuss methods and practices to conduct such multi-agent research. The goal is to synthesize the insights from the AutoUI community, creating the foundation for advancing multi-agent traffic interaction research."
