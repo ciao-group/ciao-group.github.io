@@ -1,11 +1,7 @@
-- name: 
-  photo: 
-  duration: 
-  info: 
-  email: 
-  number_educ: 
-  education1: 
-  education2:
-  education3:
-  education4:
-
+ - name: Juliette-Michelle Burkhardt
+   photo: placeholder.png
+   info: BSc, Student Assistant
+   number_educ: 1
+   email: juliette-michelle.burkhardt@mailbox.tu-dresden.de
+   github: https://github.com/julie1802
+   education1: Mixed-Reality Driving Simulation

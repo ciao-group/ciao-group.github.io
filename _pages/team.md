@@ -112,8 +112,6 @@ permalink: /team/
 {% endif %}
 
 
-
-<!-- 
 ## Alumni
 
 {% assign number_printed = 0 %}
@@ -158,17 +156,19 @@ permalink: /team/
 </div>
 </div>
 {% endif %}
---> 
+
+
+
 
 ## Bachelor and Master Students
 
-- Hannah Bussmann: Biomechanical User Models for Mobile Device Control Based on Reinforcement Learning (Master Thesis,
-  ongoing)
-- Moritz Wörmann: Generating Aesthetic UI Alternatives under Constraints (Bachelor Thesis, ongoing)
-- Niko Konzack: A Computationally Rational Model of Information Acquisition for Playing Atari Games (Master Thesis,
-  ongoing)
-- Simon Lämmer: Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior (Master Thesis,
-  ongoing)
-- Georg Schneeberger:  End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
-  Driving (Master Thesis, ongoing)
+### Ongoing
+- Hannah Bussmann: _Biomechanical User Models for Mobile Device Control Based on Reinforcement Learning_ (Master Thesis)
+- Niko Konzack: _A Computationally Rational Model of Information Acquisition for Playing Atari Games_ (Master Thesis)
+- Simon Lämmer: _Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior_ (Master Thesis)
 
+
+### Finished
+- Georg Schneeberger:  _End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
+  Driving_ (Master Thesis)
+- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (Bachelor Thesis)

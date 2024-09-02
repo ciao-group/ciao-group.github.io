@@ -10,13 +10,24 @@
   education3: Naturalistic Driving Studies 
 
 - name: Martin Lorenz
-  photo: Martin.png
+  photo: Martin.jpg
   info: MSc, PhD Student
   email: lorenz@informatik.uni-leipzig.de
+  scholar: https://scholar.google.com/citations?user=-60xUEMAAAAJ&hl=en&oi=ao
   github: https://github.com/martinoz1024
   number_educ: 3
   education1: Human Multitasking Behavior
   education2: Reinforcement Learning
+  education3: Situation Awareness
+
+- name: Michal Miazga
+  photo: placeholder.png
+  info: MSc, PhD Student
+  email: miazga@informatik.uni-leipzig.de
+  github:
+  number_educ: 3
+  education1: Reinforcement Learning
+  education2: Biomechanical Modeling
   education3: Situation Awareness
 
 - name: Timur Getselev
@@ -28,17 +39,10 @@
   education1: Mixed-Reality Driving Simulation
   education2: Large Language Models
 
-- name: Juliette-Michelle Burkhardt
-  photo: placeholder.png
-  info: BSc, Student Assistant
-  number_educ: 1
-  email: juliette-michelle.burkhardt@mailbox.tu-dresden.de
-  github: https://github.com/julie1802
-  education1: Mixed-Reality Driving Simulation
-
 - name: Hannah Bussmann
   photo: placeholder.png
   info: BSc, Student Assistant
   number_educ: 1
   email: hannah.bussmann@studserv.uni-leipzig.de
   education1: Biomechanical Modeling
+
