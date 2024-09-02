@@ -10,7 +10,7 @@
   education3: Naturalistic Driving Studies 
 
 - name: Martin Lorenz
-  photo: Martin.jpg
+  photo: Martin.png
   info: MSc, PhD Student
   email: lorenz@informatik.uni-leipzig.de
   scholar: https://scholar.google.com/citations?user=-60xUEMAAAAJ&hl=en&oi=ao
@@ -24,11 +24,11 @@
   photo: placeholder.png
   info: MSc, PhD Student
   email: miazga@informatik.uni-leipzig.de
-  github:
-  number_educ: 3
+  github: https://github.com/MichalMiazga
+  number_educ: 2
   education1: Reinforcement Learning
   education2: Biomechanical Modeling
-  education3: Situation Awareness
+
 
 - name: Timur Getselev
   photo: Timur.png
