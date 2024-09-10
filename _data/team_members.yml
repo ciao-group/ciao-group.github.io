@@ -21,7 +21,7 @@
   education3: Situation Awareness
 
 - name: Michal Miazga
-  photo: placeholder.png
+  photo: Michal.png
   info: MSc, PhD Student
   email: miazga@informatik.uni-leipzig.de
   github: https://github.com/MichalMiazga
@@ -40,9 +40,18 @@
   education2: Large Language Models
 
 - name: Hannah Bussmann
-  photo: placeholder.png
+  photo: Hannah.png
   info: BSc, Student Assistant
-  number_educ: 1
+  number_educ: 2
   email: hannah.bussmann@studserv.uni-leipzig.de
-  education1: Biomechanical Modeling
+  education1: Reinforcement Learning
+  education2: Biomechanical Modeling
+
+- name: Anton Gasse
+  photo: Anton.png
+  info: Student Assistant
+  number_educ: 2
+  email: wy39otun@studserv.uni-leipzig.de
+  education1: Reinforcement Learning
+  education2: Situation Awareness
 
