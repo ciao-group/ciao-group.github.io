@@ -1,7 +1,7 @@
 # Site settings
 title: CIAO Group
 email: ciao-scads@protonmail.me
-description: "Focusing on the nexus of machine learning and human-computer interaction, SCADS CIAO Group models human-like behaviors in the context of automated vehicular technology."
+description: "Building computational models of interaction."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ciao-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # affiliation: We are a part of <a href="http://scads.ai" target="_blank">SCADS.AI</a> at Leipzig University
@@ -13,8 +13,8 @@ google_analytics: UA-XXXXX-Y # Put your actual GA identifier
 location: >
   Löhrs Carré <br/>
   Humboldtstraße 25 <br/>
-  3. Obergeschoss <br/>
-  Room D03.31 <br/>
+  3. Floor <br/>
+  Room D03.35/41 <br/>
   04105 Leipzig <br/>
    
 
