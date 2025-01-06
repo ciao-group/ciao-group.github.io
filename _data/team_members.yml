@@ -29,6 +29,14 @@
   education1: Reinforcement Learning
   education2: Biomechanical Modeling
 
+- name: Jan Hilbert
+  photo: Jan.png
+  info: MSc, PhD Student
+  email: jan.hilbert@uni-leipzig.de
+  github: https://github.com/janosch676
+  number_educ: 2
+  education1: Data-Driven UI Evaluation
+  education2: Naturalistic Driving Studies
 
 - name: Timur Getselev
   photo: Timur.png
