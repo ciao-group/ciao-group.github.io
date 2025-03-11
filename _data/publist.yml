@@ -155,3 +155,14 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv:
   osf:
   abstract: "In the future, roads will host a complex mix of automated and manually operated vehicles, along with vulnerable road users. However, most automotive user interfaces and human factors research focus on single-agent studies, where one human interacts with one vehicle. Only a few studies incorporate multi-agent setups. This workshop aims to (1) examine the current state of multi-agent research in the automotive domain, (2) serve as a platform for discussion toward more realistic multi-agent setups, and (3) discuss methods and practices to conduct such multi-agent research. The goal is to synthesize the insights from the AutoUI community, creating the foundation for advancing multi-agent traffic interaction research."
+
+- title: "UAM-SUMO: Simulacra of Urban Air Mobility Using SUMO To Study Large-Scale Effects"
+  authors: Mark Colley, Julian Czymmeck, Pascal Jansen, Luca-Maxim Meinhardt, Patrick Ebel, Enrico Rukzio
+  url: Paper16
+  image: Paper16.png
+  display: "Proceedings of the 2025 ACM/IEEE International Conference on Human-Robot Interaction"
+  year: 2025
+  doi: https://dl.acm.org/doi/abs/10.5555/3721488.3721610
+  arxiv:
+  osf:
+  abstract: "Urban Air Mobility (UAM) emerges as a potential solution to urban congestion. However, as it lacks integration with existing transportation systems, methods to study its impact are necessary. Traditional empirical approaches are insufficient to study large-scale effects in this not-yet-real context. We developed UAM-SUMO, an extension of the SUMO simulation platform, to simulate the impact of UAM on public transportation, particularly how air taxis affect traffic flow and mode choices. We detail the modifications to SUMO and the UAM operation parameters. We open-source our code at https://github.com/M-Colley/uam-sumo and present a proof-of-concept data collection and analysis for Ingolstadt, Germany."
