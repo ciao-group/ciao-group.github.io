@@ -166,3 +166,25 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv:
   osf:
   abstract: "Urban Air Mobility (UAM) emerges as a potential solution to urban congestion. However, as it lacks integration with existing transportation systems, methods to study its impact are necessary. Traditional empirical approaches are insufficient to study large-scale effects in this not-yet-real context. We developed UAM-SUMO, an extension of the SUMO simulation platform, to simulate the impact of UAM on public transportation, particularly how air taxis affect traffic flow and mode choices. We detail the modifications to SUMO and the UAM operation parameters. We open-source our code at https://github.com/M-Colley/uam-sumo and present a proof-of-concept data collection and analysis for Ingolstadt, Germany."
+
+- title: "Evaluating Attention Management Systems for Dynamic Monitoring Tasks"
+  authors: Anton Gasse, Alexander Lingler, Martin Lorenz, Antti Oulasvirta, Philipp Wintersberger, Patrick Ebel
+  url: Paper17
+  image: Paper17.png
+  display: "Adjunct Proceedings of the 4th Annual Symposium on Human-Computer Interaction for Work (CHIWORK ’25 Adjunct),"
+  year: 2025
+  doi: https://doi.org/10.1145/3707640.3731920
+  arxiv:
+  osf: https://osf.io/kaers/
+  abstract: "In many work environments, operators must monitor multiple information sources, quickly identify critical situations, and respond appropriately. Attention Management Systems (AMS) are designed to help users coordinate attention in such contexts. However, while most AMS research has focused on multitasking and task-switching, their potential to guide gaze in dynamic monitoring remains unexplored. To address this, we evaluated two AMS designs in a controlled experiment (n= 15) using Senders’ Dial Task: Ambient"
+
+- title: "Predicting Multitasking in Manual and Automated Driving with Optimal Supervisory Control"
+  authors: Jussi Jokinen, Patrick Ebel, Tuomo Kujala
+  url: Paper18
+  image: Paper18.png
+  display: "Preprint"
+  year: 2025
+  doi:
+  arxiv: 2503.17993
+  osf:
+  abstract: "Modern driving involves interactive technologies that can divert attention, increasing the risk of accidents. This paper presents a computational cognitive model that simulates human multitasking while driving. Based on optimal supervisory control theory, the model predicts how multitasking adapts to variations in driving demands, interactive tasks, and automation levels. Unlike previous models, it accounts for context-dependent multitasking across different degrees of driving automation. The model predicts longer in-car glances on straight roads and shorter glances during curves. It also anticipates increased glance durations with driver aids such as lane-centering assistance and their interaction with environmental demands. Validated against two empirical datasets, the model offers insights into driver multitasking amid evolving in-car technologies and automation."
