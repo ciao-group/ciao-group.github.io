@@ -202,7 +202,7 @@ permalink: /team/
 
 
 ### Finished
-- Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (2025, Master Thesis)
+- Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (Master Thesis, 2025)
 - Georg Schneeberger:  _End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
-  Driving_ (2024, Master Thesis)
-- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (2024, Bachelor Thesis)
+  Driving_ (Master Thesis, 2024)
+- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (Bachelor Thesis, 2024)
