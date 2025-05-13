@@ -196,12 +196,13 @@ permalink: /team/
 ## Bachelor and Master Students
 
 ### Ongoing
+- Anton Gasse: _Modeling Visual Sampling Processes via Computational Rationality_ (Bachelor Thesis)
 - Hannah Bussmann: _Biomechanical User Models for Mobile Device Control Based on Reinforcement Learning_ (Master Thesis)
-- Niko Konzack: _A Computationally Rational Model of Information Acquisition for Playing Atari Games_ (Master Thesis)
 - Simon Lämmer: _Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior_ (Master Thesis)
 
 
 ### Finished
+- Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (2025, Master Thesis)
 - Georg Schneeberger:  _End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
-  Driving_ (Master Thesis)
-- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (Bachelor Thesis)
+  Driving_ (2024, Master Thesis)
+- Moritz Wörmann: _Generating Aesthetic UI Alternatives under Constraints_ (2024, Bachelor Thesis)
