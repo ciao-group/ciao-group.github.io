@@ -7,8 +7,10 @@ permalink: /publications/
 
 # Publications
 
+{% assign sorted_publist = site.data.publist | sort: "url" | reverse %}
+
 {% assign yeartest = true %}
-{% for publi in site.data.publist %}
+{% for publi in sorted_publist %}
   {% if publi.year %}{% else %}
    {% assign yeartest = false %}
   {% endif %}
@@ -18,7 +20,7 @@ permalink: /publications/
 ## Coming Soon
 {% endif %}
 
-{% for publi in site.data.publist %}
+{% for publi in sorted_publist %}
 {% if publi.year %}{% else %}
 
 {% assign bibtest = false %}
@@ -38,7 +40,7 @@ permalink: /publications/
    <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="90%" style="float: left" />
   {% endif %}
 </li>
-<li class="flex-item2">ƒƒ
+<li class="flex-item2">
   <strong> {{ publi.title }}</strong><br/>
   <em>{{ publi.authors }} </em><br/>
   {{ publi.display }}<br/>
@@ -74,7 +76,7 @@ permalink: /publications/
 {% for myyear in site.data.years %}
 
 {% assign yeartest = false %}
-{% for publi in site.data.publist %}
+{% for publi in sorted_publist %}
   {% if publi.year == myyear.year %}
    {% assign yeartest = true %}
   {% endif %}
@@ -86,9 +88,8 @@ permalink: /publications/
 {% endif %}
 {% endif %}
 
-{% for publi in site.data.publist %}
+{% for publi in sorted_publist %}
 {% if publi.year == myyear.year %}
-
 
 {% assign bibtest = false %}
 {% if publi.url %}
@@ -139,4 +140,3 @@ permalink: /publications/
 {% endfor %}
 
 {% endfor %}
-
