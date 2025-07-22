@@ -197,11 +197,10 @@ permalink: /team/
 
 ### Ongoing
 - Anton Gasse: _Modeling Visual Sampling Processes via Computational Rationality_ (Bachelor Thesis)
-- Hannah Bussmann: _Biomechanical User Models for Mobile Device Control Based on Reinforcement Learning_ (Master Thesis)
-- Simon Lämmer: _Traffic Simulacra: Generative Agents for Simulating Believable Mobility Behavior_ (Master Thesis)
-
 
 ### Finished
+- Hannah Bussmann: _Simulating Human-Like Touch Interactions Through RL-based Biomechanical Modeling_ (Master Thesis, 2025)
+- Simon Lämmer: _GTA: Generative Traffic Agents for Simulating Realistic Traffic Behavior_ (Master Thesis, 2025)
 - Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (Master Thesis, 2025)
 - Georg Schneeberger:  _End-to-End Reinforcement Learning Training of a Convolutional Neural Network for Autonmous
   Driving_ (Master Thesis, 2024)
