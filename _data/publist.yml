@@ -188,3 +188,14 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv: 2503.17993
   osf:
   abstract: "Modern driving involves interactive technologies that can divert attention, increasing the risk of accidents. This paper presents a computational cognitive model that simulates human multitasking while driving. Based on optimal supervisory control theory, the model predicts how multitasking adapts to variations in driving demands, interactive tasks, and automation levels. Unlike previous models, it accounts for context-dependent multitasking across different degrees of driving automation. The model predicts longer in-car glances on straight roads and shorter glances during curves. It also anticipates increased glance durations with driver aids such as lane-centering assistance and their interaction with environmental demands. Validated against two empirical datasets, the model offers insights into driver multitasking amid evolving in-car technologies and automation."
+
+- title: "Visual Sampling Behavior Does not Explain Risk Perception: A Data-Driven xAI Investigation"
+  authors: Martin Lorenz, Jan Hilbert, Philipp Asteriou, Philipp Wintersberger, Patrick Ebel
+  url: Paper19
+  image: Paper19.png
+  display: "17th International Conference on Automotive User Interfaces and Interactive Vehicular Applications"
+  year: 2025
+  doi: https://doi.org/10.1145/3744333.3747810
+  arxiv:
+  osf: mdhr2
+  abstract: "How do drivers perceive risk? Understanding what situations and factors cause drivers to perceive situations as critical can improve our understanding of road user behavior and inform automated driving technology. To investigate the factors that shape drivers’ risk perception, we conducted an eye-tracking study with 27 participants who watched dashcam videos and continuously rated the perceived risk of various driving situations. Using the resulting dataset, we developed a computer vision-based machine learning approach that generates explainable predictions of perceived risk from video and eye-tracking data. Our SHAP analysis reveals that the proximity of objects and number of cars in a scene are the most significant contributors to perceived risk. Most interestingly, while people tend to sample similar objects in critical situations, their risk perception remains highly personal making visual sampling behavior a weak predictor of perceived risk. Overall, our explanations reveal non-linear insights beyond previous work, suggesting that risk perception is not only shaped by visual input, but primarily by cognitive processes which is in line with theoretical models of situation awareness. The dataset, source code, and a comprehensive usage guide are publicly available."
