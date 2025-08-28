@@ -16,6 +16,16 @@
   education1: Unity Development
   education2: MR Driving Simulation
 
+- name: Anton Gasse
+  photo: Anton.png
+  info: Student Assistant
+  number_educ: 2
+  email: wy39otun@studserv.uni-leipzig.de
+  github: https://github.com/Anton-Gasse
+  education1: Reinforcement Learning
+  education2: Situation Awareness
+
+
 - name: Juliette-Michelle Burkhardt
   photo: placeholder.png
   info: BSc, Student Assistant
