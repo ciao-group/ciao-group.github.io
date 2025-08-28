@@ -199,3 +199,25 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv:
   osf: mdhr2
   abstract: "How do drivers perceive risk? Understanding what situations and factors cause drivers to perceive situations as critical can improve our understanding of road user behavior and inform automated driving technology. To investigate the factors that shape drivers’ risk perception, we conducted an eye-tracking study with 27 participants who watched dashcam videos and continuously rated the perceived risk of various driving situations. Using the resulting dataset, we developed a computer vision-based machine learning approach that generates explainable predictions of perceived risk from video and eye-tracking data. Our SHAP analysis reveals that the proximity of objects and number of cars in a scene are the most significant contributors to perceived risk. Most interestingly, while people tend to sample similar objects in critical situations, their risk perception remains highly personal making visual sampling behavior a weak predictor of perceived risk. Overall, our explanations reveal non-linear insights beyond previous work, suggesting that risk perception is not only shaped by visual input, but primarily by cognitive processes which is in line with theoretical models of situation awareness. The dataset, source code, and a comprehensive usage guide are publicly available."
+
+- title: "Mind & Motion: Opportunities and Applications of Integrating Biomechanics and Cognitive Models in HCI"
+  authors: Arthur Fleig, Florian Fischer, Markus Klar, Patrick Ebel, Miroslav Bachinski, Per Ola Kristensson, Roderick Murray-Smith, Antti Oulasvirta
+  url: Paper20
+  image: Paper20.png
+  display: "The 38th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '25)"
+  year: 2025
+  doi: 10.1145/3746058.3758473
+  arxiv: 2508.13788
+  osf:
+  abstract: "Computational models of how users perceive and act within a virtual or physical environment offer enormous potential for the understanding and design of user interactions. Cognition models have been used to understand the role of attention and individual preferences and beliefs on human decision making during interaction, while biomechanical simulations have been successfully applied to analyse and predict physical effort, fatigue, and discomfort. The next frontier in HCI lies in connecting these models to enable robust, diverse, and representative simulations of different user groups. These embodied user simulations could predict user intents, strategies, and movements during interaction more accurately, benchmark interfaces and interaction techniques in terms of performance and ergonomics, and guide adaptive system design. This UIST workshop explores ideas for integrating computational models into HCI and discusses use cases such as UI/UX design, automated system testing, and personalised adaptive interfaces. It brings researchers from relevant disciplines together to identify key opportunities and challenges as well as feasible next steps for bridging mind and motion to simulate interactive user behaviour. "
+
+- title: "Increasing Interaction Fidelity: Training Routines for Biomechanical Models in HCI"
+  authors: Michal Patryk Miazga, Patrick Ebel
+  url: Paper22
+  image: Paper22.png
+  display: "The 38th Annual ACM Symposium on User Interface Software and Technology (UIST Adjunct '25)"
+  year: 2025
+  doi: 10.1145/3746058.3758385
+  arxiv: 2508.16581
+  osf:
+  abstract: "Biomechanical forward simulation holds great potential for HCI, enabling the generation of human-like movements in interactive tasks. However, training biomechanical models with reinforcement learning is challenging, particularly for precise and dexterous movements like those required for touchscreen interactions on mobile devices. Current approaches are limited in their interaction fidelity, require restricting the underlying biomechanical model to reduce complexity, and do not generalize well. In this work, we propose practical improvements to training routines that reduce training time, increase interaction fidelity beyond existing methods, and enable the use of more complex biomechanical models. Using a touchscreen pointing task, we demonstrate that curriculum learning, action masking, more complex network configurations, and simple adjustments to the simulation environment can significantly improve the agent's ability to learn accurate touch behavior. Our work provides HCI researchers with practical tips and training routines for developing better biomechanical models of human-like interaction fidelity."
