@@ -67,23 +67,6 @@
   education1: Reinforcement Learning
   education2: Situation Awareness
 
-- name: Timur Getselev
-  photo: Timur.png
-  info: Student Assistant
-  number_educ: 2
-  email: tg12lera@studserv.uni-leipzig.de
-  github: https://github.com/xxWatcher
-  education1: MR Driving Simulation
-  education2: Large Language Models
-
-- name: Tami Oni-Orisan
-  photo: Tami.png
-  info: Trainee
-  number_educ: 2
-  email: blank
-  github: https://github.com/tamioni
-  education1: Unity Development
-  education2: MR Driving Simulation
 
 - name: Theodor Pollack
   photo: Theo.png

@@ -112,86 +112,113 @@ permalink: /team/
 {% endif %}
 
 
-[//]: # (## Alumni)
+## Alumni
 
-[//]: # ()
-[//]: # ({% assign number_printed = 0 %})
 
-[//]: # ({% for member in site.data.alumni_members %})
+% assign number_printed = 0 %}
+{% for member in site.data.alumni_members %}
+{% if member.position != "lead" %}
+{% assign even_odd = number_printed | modulo: 2 %}
 
-[//]: # ()
-[//]: # ({% assign even_odd = number_printed | modulo: 2 %})
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-[//]: # ()
-[//]: # ({% if even_odd == 0 %})
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="38%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}<br></i>
+  <p style="white-space: nowrap; display: flex; align-items: center; justify-content: flex-start; gap: 3px ">
+    {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
+    {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-2x"></i></a> {% endif %}
+    {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank"><i class="ai ai-google-scholar-square ai-2x"></i></a> {% endif %}
+    {% if member.cv %}<a href="{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-2x"></i></a> {% endif %}
+    {% if member.github %}<a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}
+    {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank"><i class="ai ai-researchgate-square ai-2x"></i></a> {% endif %}
+  </p>
 
-[//]: # (<div class="row">)
+  <i> Research Interests: </i>
+  <ul style="overflow: hidden">
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
 
-[//]: # ({% endif %})
+{% if member.number_educ == 2 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  {% endif %}
 
-[//]: # ()
-[//]: # (<div class="col-sm-6 clearfix">)
+{% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
 
-[//]: # (  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />)
+{% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
 
-[//]: # (  <h4>{{ member.name }}</h4>)
+{% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education5 }} </li>
+  {% endif %}
 
-[//]: # (  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>)
+  </ul>
+</div>
 
-[//]: # (  <ul style="overflow: hidden">)
+{% assign number_printed = number_printed | plus: 1 %}
 
-[//]: # ()
-[//]: # (  </ul>)
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}
 
-[//]: # (</div>)
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
-[//]: # ()
-[//]: # ({% assign number_printed = number_printed | plus: 1 %})
 
-[//]: # ()
-[//]: # ({% if even_odd == 1 %})
 
-[//]: # (</div>)
-
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # ({% endfor %})
-
-[//]: # ()
-[//]: # ({% assign even_odd = number_printed | modulo: 2 %})
-
-[//]: # ({% if even_odd == 1 %})
-
-[//]: # (</div>)
-
-[//]: # ({% endif %})
-
-[//]: # ()
-[//]: # ()
 [//]: # ({% if site.data.alumni_visitors %})
 
 [//]: # (## Former M.S./B.S Students, Visitors)
 
+[//]: # ()
 [//]: # (<div class="row">)
 
+[//]: # ()
 [//]: # (<div class="col-sm-6 clearfix">)
 
+[//]: # ()
 [//]: # ({% for member in site.data.alumni_visitors %})
 
+[//]: # ()
 [//]: # ({{ member.name }})
 
+[//]: # ()
 [//]: # ({% endfor %})
 
+[//]: # ()
 [//]: # (</div>)
 
+[//]: # ()
 [//]: # (</div>)
 
+[//]: # ()
 [//]: # ({% endif %})
 
+[//]: # ()
+[//]: # (## Alumni)
 
-## Alumni
-- Juliette-Michelle Burkhardt (Student Assistant, 2024)
+[//]: # (- Juliette-Michelle Burkhardt &#40;Student Assistant, 2024&#41;)
 
 ## Bachelor and Master Students
 
