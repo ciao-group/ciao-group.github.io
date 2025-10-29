@@ -18,8 +18,7 @@ code {padding: 6px 8px; font-size: 90%;}
 
 <div class="row">
   <h2>CIAO &#128075; </h2>
-  <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction, and mobility. <br>
-  We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. We develop models that are either data-driven (based on usage data collected from customers) or based on computational rationality. 
+  <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction and mobility. We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. Our models are either data-driven (based on usage data collected in the real-world or in experimental studies) or based on computational rationality and reinforcement learning. 
   <br><br>
   We are part of the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University. ScaDS.AI Dresden/Leipzig is one of five new AI centers in Germany funded under the federal government’s AI strategy.
 </p>
@@ -40,7 +39,7 @@ code {padding: 6px 8px; font-size: 90%;}
 <div class="row">
   <h4>Our Vision</h4>
   <p>
-    At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. <br> We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning.
+    At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning. Learn more about our research <a href="https://ciao-group.github.io/research/"> here</a>.
   </p>
 
 </div>
