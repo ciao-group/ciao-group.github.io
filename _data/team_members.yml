@@ -39,14 +39,16 @@
   education1: Data-Driven UI Evaluation
   education2: Naturalistic Driving Studies
 
-- name: Hannah Bussmann
-  photo: Hannah.png
-  info: BSc, Student Assistant
-  number_educ: 2
-  email: hannah.bussmann@studserv.uni-leipzig.de
-  github: https://github.com/hannita1
-  education1: Reinforcement Learning
-  education2: Biomechanical Modeling
+- name: Christopher Akiki
+  photo: Chris.png
+  info: MSc, PhD Student
+  email: christopher.akiki@uni-leipzig.de
+  github: https://github.com/cakiki
+  scholar: https://scholar.google.com/citations?user=PzSym7oAAAAJ&hl=en
+  number_educ: 3
+  education1: Natural Language Processing
+  education2: Information Retrieval
+  education3: Data Representation and Visualization
 
 - name: Celine Conzen
   photo: Celine.png

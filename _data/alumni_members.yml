@@ -25,6 +25,14 @@
   education1: Reinforcement Learning
   education2: Situation Awareness
 
+- name: Hannah Bussmann
+  photo: Hannah.png
+  info: BSc, Student Assistant
+  number_educ: 2
+  email: hannah.bussmann@studserv.uni-leipzig.de
+  github: https://github.com/hannita1
+  education1: Reinforcement Learning
+  education2: Biomechanical Modeling
 
 - name: Juliette-Michelle Burkhardt
   photo: placeholder.png
