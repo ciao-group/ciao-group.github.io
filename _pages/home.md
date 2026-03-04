@@ -20,13 +20,14 @@ code {padding: 6px 8px; font-size: 90%;}
   <h2>CIAO &#128075; </h2>
   <p>We are the Junior <strong> Research Group CIAO (Computational Interaction and Mobility) </strong> and work at the intersection of machine learning, human-computer interaction and mobility. We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. Our models are either data-driven (based on usage data collected in the real-world or in experimental studies) or based on computational rationality and reinforcement learning. 
   <br><br>
-  We are part of the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University. ScaDS.AI Dresden/Leipzig is one of five new AI centers in Germany funded under the federal government’s AI strategy.
+  We recently moved to <a href="https://hpi.de/en/research/research-groups/computational-interaction/" target="_blank"> Hasso Plattner Institute </a> but are still affilated with the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University.
 </p>
 </div>
 
 
-<!-- Home Page Banner Image >-->
-<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 80%; height: auto;">
+[//]: # (<!-- Home Page Banner Image >-->)
+
+[//]: # (<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 80%; height: auto;">)
 
 
 <!-- Interview for a project called "Digitial Mobile Classroom", which aims to promote computer science and AI for students in German schools. >-->
