@@ -1,6 +1,6 @@
 # Site settings
 title: CIAO Group
-email: ciao-scads@protonmail.me
+email: office-ebel@hpi.de
 description: "Building computational models of interaction."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ciao-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -11,11 +11,11 @@ google_analytics: UA-XXXXX-Y # Put your actual GA identifier
 
 # Location info. (shown in footer)
 location: >
-  Löhrs Carré <br/>
-  Humboldtstraße 25 <br/>
-  3. Floor <br/>
-  Room D03.35/41 <br/>
-  04105 Leipzig <br/>
+  Hasso Plattner Institute <br/>
+  Prof.-Dr.-Helmert-Str. 2-3 <br/>
+  Main Building <br/>
+  Room H-1.39/40 <br/>
+  14482 Potsdam <br/>
    
 
 # Contact info. (shown in footer)
