@@ -2991,6 +2991,34 @@ select[multiple].input-lg,
     -webkit-box-shadow: none;
     box-shadow: none; }
 
+  .btn-github {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 0px solid transparent;
+  white-space: nowrap;
+  color: #eeeeee;
+  background-color: #000000;
+  padding: 2.1px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .btn-github.disabled, .btn-github[disabled], fieldset[disabled] .btn-github {
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
 .btn-doi {
   display: inline-block;
   margin-bottom: 0;

@@ -241,7 +241,7 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   year: 2026
   doi: 10.1145/3746058.3758385
   arxiv: 2603.08080
-  osf: https://github.com/ciao-group/mrdrive
+  github: ciao-group/mrdrive
   abstract: "Designing and evaluating in-vehicle interfaces requires experimental platforms that combine ecological validity with experimental control. Driving simulators are widely used for this purpose. However, they face a fundamental trade-off: high-fidelity physical simulators are costly and difficult to adapt, while virtual reality simulators provide flexibility at the expense of physical interaction with the vehicle. In this work, we present MRDrive, an open mixed-reality driving simulator designed to support HCI research on in-vehicle interaction, attention, and explainability in manual and automated driving contexts. MRDrive enables drivers and passengers to interact with a real vehicle cabin while being fully immersed in a virtual driving environment. We demonstrate the capabilities of MRDrive through a small pilot study that illustrates how the simulator can be used to collect and analyze eye-tracking and touch interaction data in an automated driving scenario. MRDRive is available at: this https URL"
 
 - title: "Log2Motion: Biomechanical Motion Synthesis from Touch Logs"
@@ -252,7 +252,7 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   year: 2026
   doi: 10.1145/3772318.3790773
   arxiv: 2601.21043
-  osf: https://github.com/ciao-group/Log2Motion
+  github: ciao-group/Log2Motion
   abstract: "Touch data from mobile devices are collected at scale but reveal little about the interactions that produce them. While biomechanical simulations can illuminate motor control processes, they have not yet been developed for touch interactions. To close this gap, we propose a novel computational problem: synthesizing plausible motion directly from logs. Our key insight is a reinforcement learning-driven musculoskeletal forward simulation that generates biomechanically plausible motion sequences consistent with events recorded in touch logs. We achieve this by integrating a software emulator into a physics simulator, allowing biomechanical models to manipulate real applications in real-time. Log2Motion produces rich syntheses of user movements from touch logs, including estimates of motion, speed, accuracy, and effort. We assess the plausibility of generated movements by comparing against human data from a motion capture study and prior findings, and demonstrate Log2Motion in a large-scale dataset. Biomechanical motion synthesis provides a new way to understand log data, illuminating the ergonomics and motor control underlying touch interactions."
 
 - title: "GTA: Generative Traffic Agents for Simulating Realistic Mobility Behavior"
@@ -263,5 +263,5 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   year: 2026
   doi: 10.1145/3772318.3790772
   arxiv: 2601.16778
-  osf: https://github.com/ciaogroup/Generative-Traffic-Agents
+  osf: ciaogroup/Generative-Traffic-Agents
   abstract: "People's transportation choices reflect complex trade-offs shaped by personal preferences, social norms, and technology acceptance. Predicting such behavior at scale is a critical challenge with major implications for urban planning and sustainable transport. Traditional methods use handcrafted assumptions and costly data collection, making them impractical for early-stage evaluations of new technologies or policies. We introduce Generative Traffic Agents (GTA) for simulating large-scale, context-sensitive transportation choices using LLM-powered, persona-based agents. GTA generates artificial populations from census-based sociodemographic data. It simulates activity schedules and mode choices, enabling scalable, human-like simulations without handcrafted rules. We evaluate GTA in Berlin-scale experiments, comparing simulation results against empirical data. While agents replicate patterns, such as modal split by socioeconomic status, they show systematic biases in trip length and mode preference. GTA offers new opportunities for modeling how future innovations, from bike lanes to transit apps, shape mobility decisions."
