@@ -221,3 +221,47 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   arxiv: 2508.16581
   osf:
   abstract: "Biomechanical forward simulation holds great potential for HCI, enabling the generation of human-like movements in interactive tasks. However, training biomechanical models with reinforcement learning is challenging, particularly for precise and dexterous movements like those required for touchscreen interactions on mobile devices. Current approaches are limited in their interaction fidelity, require restricting the underlying biomechanical model to reduce complexity, and do not generalize well. In this work, we propose practical improvements to training routines that reduce training time, increase interaction fidelity beyond existing methods, and enable the use of more complex biomechanical models. Using a touchscreen pointing task, we demonstrate that curriculum learning, action masking, more complex network configurations, and simple adjustments to the simulation environment can significantly improve the agent's ability to learn accurate touch behavior. Our work provides HCI researchers with practical tips and training routines for developing better biomechanical models of human-like interaction fidelity."
+
+- title: "CR-Eyes: A Computational Rational Model of Visual Sampling Behavior in Atari Games"
+  authors: Martin Lorenz, Niko Konzack, Alexander Lingler, Philipp Wintersberger, Patrick Ebel
+  url: Paper23
+  image: Paper23.png
+  display: "Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26)"
+  year: 2026
+  doi: 10.1145/3772363.3798498
+  arxiv:
+  osf:
+  abstract: "Designing mobile and interactive technologies requires understanding how users sample dynamic environments to acquire information and make decisions under time pressure.  However, existing computational user models either rely on hand-crafted task representations or are limited to static or non-interactive visual inputs, restricting their applicability to realistic, pixel-based environments. We present CR-Eyes, a computationally rational model that simulates visual sampling and gameplay behavior in Atari games. Trained via reinforcement learning, CR-Eyes operates under perceptual and cognitive constraints and jointly learns where to look and how to act in a time-sensitive setting. By explicitly closing the perception–action loop, the model treats eye movements as goal-directed actions rather than as isolated saliency predictions. Our evaluation shows strong alignment with human data in task performance and aggregate saliency patterns, while also revealing systematic differences in scanpaths. CR-Eyes is a step toward scalable, theory-grounded user models that support design and evaluation of interactive systems."
+
+- title: "MRDrive: An Open Source Mixed Reality Driving Simulator for Automotive User Research"
+  authors: Patrick Ebel, Michał Patryk Miazga, Martin Lorenz, Timur Getselev, Pavlo Bazilinskyy, Celine Conzen
+  url: Paper24
+  image: Paper24.png
+  display: "Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA ’26)"
+  year: 2026
+  doi: 10.1145/3746058.3758385
+  arxiv: 2603.08080
+  osf: https://github.com/ciao-group/mrdrive
+  abstract: "Designing and evaluating in-vehicle interfaces requires experimental platforms that combine ecological validity with experimental control. Driving simulators are widely used for this purpose. However, they face a fundamental trade-off: high-fidelity physical simulators are costly and difficult to adapt, while virtual reality simulators provide flexibility at the expense of physical interaction with the vehicle. In this work, we present MRDrive, an open mixed-reality driving simulator designed to support HCI research on in-vehicle interaction, attention, and explainability in manual and automated driving contexts. MRDrive enables drivers and passengers to interact with a real vehicle cabin while being fully immersed in a virtual driving environment. We demonstrate the capabilities of MRDrive through a small pilot study that illustrates how the simulator can be used to collect and analyze eye-tracking and touch interaction data in an automated driving scenario. MRDRive is available at: this https URL"
+
+- title: "Log2Motion: Biomechanical Motion Synthesis from Touch Logs"
+  authors: Michał Patryk Miazga, Hannah Bussmann, Antti Oulasvirta, Patrick Ebel
+  url: Paper25
+  image: Paper25.png
+  display: "Poceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)"
+  year: 2026
+  doi: 10.1145/3772318.3790773
+  arxiv: 2601.21043
+  osf: https://github.com/ciao-group/Log2Motion
+  abstract: "Touch data from mobile devices are collected at scale but reveal little about the interactions that produce them. While biomechanical simulations can illuminate motor control processes, they have not yet been developed for touch interactions. To close this gap, we propose a novel computational problem: synthesizing plausible motion directly from logs. Our key insight is a reinforcement learning-driven musculoskeletal forward simulation that generates biomechanically plausible motion sequences consistent with events recorded in touch logs. We achieve this by integrating a software emulator into a physics simulator, allowing biomechanical models to manipulate real applications in real-time. Log2Motion produces rich syntheses of user movements from touch logs, including estimates of motion, speed, accuracy, and effort. We assess the plausibility of generated movements by comparing against human data from a motion capture study and prior findings, and demonstrate Log2Motion in a large-scale dataset. Biomechanical motion synthesis provides a new way to understand log data, illuminating the ergonomics and motor control underlying touch interactions."
+
+- title: "GTA: Generative Traffic Agents for Simulating Realistic Mobility Behavior"
+  authors: Simon Lämmer, Mark Colley, Patrick Ebel
+  url: Paper26
+  image: Paper26.png
+  display: "Poceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI ’26)"
+  year: 2025
+  doi: 10.1145/3772318.3790772
+  arxiv: 2601.16778
+  osf: https://github.com/ciaogroup/Generative-Traffic-Agents
+  abstract: "People's transportation choices reflect complex trade-offs shaped by personal preferences, social norms, and technology acceptance. Predicting such behavior at scale is a critical challenge with major implications for urban planning and sustainable transport. Traditional methods use handcrafted assumptions and costly data collection, making them impractical for early-stage evaluations of new technologies or policies. We introduce Generative Traffic Agents (GTA) for simulating large-scale, context-sensitive transportation choices using LLM-powered, persona-based agents. GTA generates artificial populations from census-based sociodemographic data. It simulates activity schedules and mode choices, enabling scalable, human-like simulations without handcrafted rules. We evaluate GTA in Berlin-scale experiments, comparing simulation results against empirical data. While agents replicate patterns, such as modal split by socioeconomic status, they show systematic biases in trip length and mode preference. GTA offers new opportunities for modeling how future innovations, from bike lanes to transit apps, shape mobility decisions."
