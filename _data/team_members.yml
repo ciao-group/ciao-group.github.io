@@ -7,7 +7,18 @@
   number_educ: 3
   education1: Computational User Modeling
   education2: Data-Driven UI Evaluation
-  education3: Naturalistic Driving Studies 
+  education3: Naturalistic Driving Studies
+
+- name: Christine Buckley
+  photo: Tine.png
+  info: Office Assistant
+  email: office-ebel@hpi.de
+  scholar:
+  github:
+  number_educ: 3
+  education1: Family
+  education2: Sports
+  education3: Cooking
 
 - name: Martin Lorenz
   photo: Martin.png
