@@ -2,7 +2,7 @@
 title: "Vacancies and Theses"
 layout: textlay
 sitemap: false
-permalink: /vacancies
+permalink: /openings
 ---
 ## Open Positions
 
