@@ -6,7 +6,7 @@ permalink: /openings
 ---
 ## Open Positions
 
-#### Coming: PhD fellowship and student research assistant positions. Sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
+#### Coming soon: PhD fellowship and student research assistant positions. Sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
 
 ---
 ## Theses
