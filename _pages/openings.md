@@ -6,7 +6,9 @@ permalink: /openings
 ---
 ## Open Positions
 
-#### Coming soon: PhD fellowship and student research assistant positions. Sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
+#### PhD Student Position: [Apply Here](https://jobs.plattnerfoundation.org/HPI/job/Potsdam-PhD-Candidate-%28mfx%29-in-Computational-Interaction-and-User-Modeling-14482/1346544655/)
+
+#### We are also looking for student research assistant positions. Sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
 
 ---
 ## Theses
