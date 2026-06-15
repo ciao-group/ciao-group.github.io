@@ -20,6 +20,17 @@
   education2: Sports
   education3: Cooking
 
+- name: Lena Hegemann
+  photo: Lena.png
+  info: PostDoc
+  email: lena.hegemann@hpi.de
+  scholar:
+  github: https://github.com/ciao-group
+  number_educ: 3
+  education1: Human-AI interaction
+  education2: AI Alignment
+  education3: Creativity Support Tools
+
 - name: Martin Lorenz
   photo: Martin.png
   info: MSc, PhD Student
