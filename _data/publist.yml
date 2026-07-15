@@ -263,5 +263,15 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   year: 2026
   doi: 10.1145/3772318.3790772
   arxiv: 2601.16778
-  osf: ciaogroup/Generative-Traffic-Agents
+  github: ciaogroup/Generative-Traffic-Agents
   abstract: "People's transportation choices reflect complex trade-offs shaped by personal preferences, social norms, and technology acceptance. Predicting such behavior at scale is a critical challenge with major implications for urban planning and sustainable transport. Traditional methods use handcrafted assumptions and costly data collection, making them impractical for early-stage evaluations of new technologies or policies. We introduce Generative Traffic Agents (GTA) for simulating large-scale, context-sensitive transportation choices using LLM-powered, persona-based agents. GTA generates artificial populations from census-based sociodemographic data. It simulates activity schedules and mode choices, enabling scalable, human-like simulations without handcrafted rules. We evaluate GTA in Berlin-scale experiments, comparing simulation results against empirical data. While agents replicate patterns, such as modal split by socioeconomic status, they show systematic biases in trip length and mode preference. GTA offers new opportunities for modeling how future innovations, from bike lanes to transit apps, shape mobility decisions."
+
+- title: "Enhancing Mobile Multitasking with Reinforcement Learning-Based Attention Management"
+  authors: Alexander Lingler, Helena Anna Frijns, Nelson J. S. Silva, ,Patrick Ebel, Philipp Wintersberger
+  url: Paper27
+  image: Paper27.png
+  display: "International Journal of Human–Computer Interaction"
+  year: 2026
+  doi: 10.1080/10447318.2026.2688492
+  osf: 8tm6k/overview
+  abstract: "Attention Management Systems promise to support users in better handling demands and mitigate the negative effects of multitasking. However, significant challenges remain in transferring these concepts to realistic settings. We introduce a reinforcement learning-based attention management system that schedules mobile operations with dynamic priorities, which we trained on a computationally rational simulation of typing behavior. To evaluate its effectiveness, we conducted two user studies, one in a stationary and one in a mobile context. Third, we conducted a simulation-based analysis comparing our RL-based policy with a heuristic baseline. The analysis demonstrated improved performance on several metrics for the RL-based policy as compared to self-supervision, including the number of words typed per minute and reaction times. The approach can successfully handle multiple concurrent tasks and worked in both the sitting and walking scenarios. We conclude by discussing implications for the design of Attention Management Systems."
