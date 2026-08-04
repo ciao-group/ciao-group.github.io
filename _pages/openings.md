@@ -6,9 +6,9 @@ permalink: /openings
 ---
 ## Open Positions
 
-#### PhD Student Position: [Apply Here](https://jobs.plattnerfoundation.org/HPI/job/Potsdam-PhD-Candidate-%28mfx%29-in-Computational-Interaction-and-User-Modeling-14482/1346544655/)
+[//]: # (#### PhD Student Position: [Apply Here]&#40;https://jobs.plattnerfoundation.org/HPI/job/Potsdam-PhD-Candidate-%28mfx%29-in-Computational-Interaction-and-User-Modeling-14482/1346544655/&#41;)
 
-#### We are also looking for student research assistant positions. Sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
+#### We are looking for student research assistant positions. If any of our topics sounds interesting? Reach out to [Patrick](https://ciao-group.github.io/team/).
 
 ---
 ## Theses
