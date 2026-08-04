@@ -224,10 +224,9 @@ permalink: /team/
 
 ## Bachelor and Master Students
 
-### Ongoing
+- Jonas Tag: _User Centered Development of a Scientific Data Visualization Library in Python_ (Bachelor Thesis, 2026)
+- Celine Conzen: _Effects of Optional Natural-Language Explanations on Trust Calibration in Automated Vehicles_ (Master Thesis, 2026)
 - Anton Gasse: _Modeling Visual Sampling Processes via Computational Rationality_ (Bachelor Thesis)
-
-### Finished
 - Hannah Bussmann: _Simulating Human-Like Touch Interactions Through RL-based Biomechanical Modeling_ (Master Thesis, 2025)
 - Simon Lämmer: _GTA: Generative Traffic Agents for Simulating Realistic Traffic Behavior_ (Master Thesis, 2025)
 - Niko Konzack: _A Computationally Rational Model of Human Visual Sampling for Atari Games_ (Master Thesis, 2025)
