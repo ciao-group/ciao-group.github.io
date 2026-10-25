@@ -25,6 +25,21 @@ code {padding: 6px 8px; font-size: 90%;}
 </div>
 
 
+<div class="research-overview" markdown="0">
+  <figure class="feature-photo research-model">
+    <img src="{{ '/images/home/biomechanical-model.webp' | relative_url }}" width="764" height="1080" alt="Biomechanical model interacting with a touchscreen device" decoding="async" fetchpriority="high">
+  </figure>
+  <div class="research-examples">
+    <figure class="feature-photo">
+      <img src="{{ '/images/home/visual-risk-analysis.webp' | relative_url }}" width="1059" height="589" alt="Driving scenes with visual attention heatmaps and a graph of risk ratings over time" decoding="async">
+    </figure>
+    <figure class="feature-photo">
+      <img src="{{ '/images/home/cr-eyes-model.webp' | relative_url }}" width="1600" height="703" alt="CR-Eyes model architecture with human and simulated visual attention in an Atari game" decoding="async">
+    </figure>
+  </div>
+</div>
+
+
 [//]: # (<!-- Home Page Banner Image >-->)
 
 [//]: # (<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 80%; height: auto;">)

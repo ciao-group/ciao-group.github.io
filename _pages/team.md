@@ -43,6 +43,15 @@ permalink: /team/
 
 ## The Team
 
+<div class="photo-pair" markdown="0">
+<figure class="feature-photo home-team-photo">
+  <img src="{{ '/images/home/ciao-team-1600.jpg' | relative_url }}" srcset="{{ '/images/home/ciao-team-800.jpg' | relative_url }} 800w, {{ '/images/home/ciao-team-1600.jpg' | relative_url }} 1600w" sizes="(max-width: 767px) calc(100vw - 62px), (max-width: 1000px) calc((100vw - 82px) / 2), 459px" width="1600" height="1067" alt="The CIAO team outdoors on the HPI campus" fetchpriority="high" decoding="async">
+</figure>
+<figure class="feature-photo home-discussion-photo">
+  <img src="{{ '/images/home/ciao-discussion-1280.jpg' | relative_url }}" srcset="{{ '/images/home/ciao-discussion-640.jpg' | relative_url }} 640w, {{ '/images/home/ciao-discussion-1280.jpg' | relative_url }} 1280w" sizes="(max-width: 767px) calc(100vw - 62px), (max-width: 1000px) calc((100vw - 82px) / 2), 459px" width="1280" height="854" alt="CIAO team members discussing their work together outdoors" decoding="async">
+</figure>
+</div>
+
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 {% if member.position != "lead" %}
