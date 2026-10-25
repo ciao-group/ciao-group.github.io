@@ -275,3 +275,58 @@ Overall, this thesis identifies current shortcomings in the evaluation of IVISs 
   doi: 10.1080/10447318.2026.2688492
   osf: 8tm6k/overview
   abstract: "Attention Management Systems promise to support users in better handling demands and mitigate the negative effects of multitasking. However, significant challenges remain in transferring these concepts to realistic settings. We introduce a reinforcement learning-based attention management system that schedules mobile operations with dynamic priorities, which we trained on a computationally rational simulation of typing behavior. To evaluate its effectiveness, we conducted two user studies, one in a stationary and one in a mobile context. Third, we conducted a simulation-based analysis comparing our RL-based policy with a heuristic baseline. The analysis demonstrated improved performance on several metrics for the RL-based policy as compared to self-supervision, including the number of words typed per minute and reaction times. The approach can successfully handle multiple concurrent tasks and worked in both the sitting and walking scenarios. We conclude by discussing implications for the design of Attention Management Systems."
+
+- title: "A Scale For Value Alignment In Human-AI Interaction"
+  authors: "Lena Hegemann, Steeven Villa, Hyemin Bang, Mitchell L. Gordon, Antti Oulasvirta, Robin Welsch, Patrick Ebel"
+  url: "Paper28"
+  image: "Paper28.png"
+  display: "Preprint"
+  year: 2026
+  arxiv: "2610.09911"
+  abstract: "Value alignment is a central objective in AI and HCI research, yet no validated instrument measures how users perceive it. This gap hampers the comparison and accumulation of findings and limits the effectiveness of applications, where understanding users' viewpoints is critical. We construct and evaluate a 13-item psychometric scale that measures perceived value alignment across two components: value understanding and value manifestation. It is based on a large item pool drawn from prior empirical studies, filtered by experts, and finally assessed by users (N=607) across diverse AI scenarios. Confirmatory factor analysis on an independent sample (N=259) confirmed the two-factor structure and high internal consistency for both subscales. Using optimization, we also derived a 6-item short form for quick administration. The scale is a reliable measure, providing HCI researchers with a common evaluation metric across contexts."
+
+- title: "A Human-Like Pedestrian Model for Automated Driving Simulations"
+  authors: "Ruofeng Wang, Patrick Ebel, Philipp Wintersberger, Antti Oulasvirta"
+  url: "Paper29"
+  image: "Paper29.png"
+  display: "Preprint"
+  year: 2026
+  arxiv: "2609.29175"
+  abstract: "Automated vehicles must be able to interact with pedestrians safely and efficiently across diverse traffic situations. Although driving simulators offer a scalable testbed for learning such capabilities, existing theory-inspired pedestrian models are narrow in scope and limited to go/no-go crossing decisions in single-lane settings. While data-driven approaches can predict pedestrian behavior in complex situations, they lack sufficient observations in rare, safety-critical scenarios. Here, we propose an approach to training pedestrian models in simulators so that learned policies generate demonstrably human-like behavior in realistic, complex traffic scenarios, including multiple lanes, heavy traffic, and dangerous driving styles. Our technical contribution is a novel definition of pedestrian-vehicle interaction as a partially observable Markov decision process (POMDP) with theory-grounded perceptual, cognitive, and motor constraints. It accounts for the highly adaptive nature of human behavior in traffic and simulates how people adjust their responses according to perceived danger, time pressure, and the complexity of the situation. When trained via deep reinforcement learning (RL) with domain randomization in a simulator, the model reproduces the broadest range of empirical findings shown so far on human crossing behavior, including gap acceptance, yielding acceptance, hesitation, and evasive speed adjustment. We show that learned policies transfer to unseen traffic environments, and can be further adapted to local traffic norms with finetuning. Together, these results establish a blueprint for simulator-ready pedestrian models that can support the development and evaluation of automated driving systems."
+
+- title: "Modeling Driving and Visual Perception through Computational Rationality"
+  authors: "Alexander Lingler, Martin Lorenz, Arezoo Sedghi, Helena Anna Frijns, Bernd Resch, Patrick Ebel, Philipp Wintersberger"
+  url: "Paper30"
+  pdf: false
+  display: "Proceedings of the 18th International Conference on Automotive User Interfaces and Interactive Vehicular Applications"
+  year: 2026
+  doi: "10.1145/3828157.3828783"
+
+- title: "How do drivers interact with in-vehicle information systems in everyday driving? Evidence from large-scale naturalistic data"
+  authors: "Jan Hilbert, Natalia Sevcenko, Patrick Ebel"
+  url: "Paper31"
+  pdf: false
+  display: "Transportation Research Part F: Traffic Psychology and Behaviour, 121, 103669"
+  year: 2026
+  doi: "10.1016/j.trf.2026.103669"
+  abstract: "We analyze naturalistic data from 669,493 customer trips across 79 countries to investigate everyday interactions with in-vehicle information systems. Mixed-effects models examine how environmental conditions, vehicle dynamics, road infrastructure, driving automation, and mileage relate to interaction behavior. Drivers interact approximately every five minutes, particularly at the start of trips, and use physical buttons more frequently than touchscreens. Engagement varies across regions, decreases with mileage, and is more likely during partially automated driving. Increased driving dynamics are associated with fewer and less complex interactions. These findings inform context-aware interface design, evaluation, and regulation."
+
+- title: "ICEBOAT: An Interactive User Behavior Analysis Tool for Automotive User Interfaces"
+  authors: "Patrick Ebel, Kim Julian Gülle, Christoph Lingenfelder, Andreas Vogelsang"
+  url: "Paper32"
+  image: "Paper32.png"
+  display: "Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology"
+  year: 2022
+  doi: "10.1145/3526114.3558739"
+  arxiv: "2208.12715"
+  abstract: "In this work, we present ICEBOAT an interactive tool that enables automotive UX experts to explore how users interact with In-vehicle Information Systems. Based on large naturalistic driving data continuously collected from production line vehicles, ICEBOAT visualizes drivers' interactions and driving behavior on different levels of detail. Hence, it allows to easily compare different user flows based on performance- and safety-related metrics."
+
+- title: "Topic Modeling on User Stories using Word Mover's Distance"
+  authors: "Kim Julian Gülle, Nicholas Ford, Patrick Ebel, Florian Brokhausen, Andreas Vogelsang"
+  url: "Paper33"
+  image: "Paper33.png"
+  display: "2020 IEEE Seventh International Workshop on Artificial Intelligence for Requirements Engineering (AIRE)"
+  year: 2020
+  doi: "10.1109/AIRE51212.2020.00015"
+  arxiv: "2007.05302"
+  abstract: "Requirements elicitation has recently been complemented with crowd-based techniques, which continuously involve large, heterogeneous groups of users who express their feedback through a variety of media. Crowd-based elicitation has great potential for engaging with (potential) users early on but also results in large sets of raw and unstructured feedback. Consolidating and analyzing this feedback is a key challenge for turning it into sensible user requirements. In this paper, we focus on topic modeling as a means to identify topics within a large set of crowd-generated user stories and compare three approaches: (1) a traditional approach based on Latent Dirichlet Allocation, (2) a combination of word embeddings and principal component analysis, and (3) a combination of word embeddings and Word Mover's Distance. We evaluate the approaches on a publicly available set of 2,966 user stories written and categorized by crowd workers. We found that a combination of word embeddings and Word Mover's Distance is most promising. Depending on the word embeddings we use in our approaches, we manage to cluster the user stories in two ways: one that is closer to the original categorization and another that allows new insights into the dataset, e.g. to find potentially new categories. Unfortunately, no measure exists to rate the quality of our results objectively. Still, our findings provide a basis for future work towards analyzing crowd-sourced user stories."
