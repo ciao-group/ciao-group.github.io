@@ -1,1 +1,4 @@
 .DS_Store
+.preview/
+.jekyll-metadata
+.sass-cache/

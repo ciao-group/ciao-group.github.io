@@ -1,0 +1,14 @@
+# Local overrides only; the published site's settings stay in _config.yml.
+url: "http://127.0.0.1:4000"
+baseurl: ""
+host: "127.0.0.1"
+port: 4000
+destination: .preview/site
+exclude:
+  - .preview
+  - _site
+  - scripts
+  - Preview Website.command
+  - README.md
+  - Gemfile
+  - Gemfile.lock

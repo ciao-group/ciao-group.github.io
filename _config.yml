@@ -39,6 +39,13 @@ include:
   - .htaccess
   - _pages
 
+# Local preview tooling is never part of the published website.
+exclude:
+  - .preview
+  - Preview Website.command
+  - scripts/preview
+  - scripts/preview_ruby_compat.rb
+
 sass:
   sass_dir: _sass
 

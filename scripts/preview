@@ -1,0 +1,61 @@
+#!/bin/bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+
+BUILD_ONLY=false
+OPEN_BROWSER=true
+for argument in "$@"; do
+  case "$argument" in
+    --build) BUILD_ONLY=true ;;
+    --no-open) OPEN_BROWSER=false ;;
+    *) echo "Usage: ./scripts/preview [--build] [--no-open]" >&2; exit 1 ;;
+  esac
+done
+
+if ! command -v ruby >/dev/null || ! command -v gem >/dev/null; then
+  echo "Ruby is needed to preview this Jekyll website. Install Ruby, then run this again." >&2
+  exit 1
+fi
+
+# Keep dependencies, Bundler settings and generated pages local and ignored.
+export GEM_HOME="$ROOT/.preview/tools"
+export GEM_PATH="$GEM_HOME:$(ruby -e 'puts Gem.default_path.join(":")')"
+export BUNDLE_PATH="$ROOT/.preview/bundle"
+export BUNDLE_APP_CONFIG="$ROOT/.preview/config"
+export BUNDLE_FROZEN=true
+export BUNDLE_BUILD__EVENTMACHINE=--without-ssl
+export RUBYLIB="$ROOT/scripts${RUBYLIB:+:$RUBYLIB}"
+export RUBYOPT="-rpreview_ruby_compat ${RUBYOPT:-}"
+export JEKYLL_ENV=development
+
+BUNDLER_VERSION="$(awk '/BUNDLED WITH/{getline; gsub(/^[[:space:]]+/, ""); print; exit}' Gemfile.lock)"
+if ! gem list --installed bundler --version "$BUNDLER_VERSION" >/dev/null; then
+  echo "Setting up the preview tools (first run only)…"
+  gem install bundler --version "$BUNDLER_VERSION" --no-document
+fi
+
+BUNDLE="$GEM_HOME/bin/bundle"
+if [ ! -f "$BUNDLE" ]; then
+  # Install a local launcher even if Bundler also exists in the system gems.
+  gem install bundler --version "$BUNDLER_VERSION" --no-document
+fi
+if ! ruby "$BUNDLE" check >/dev/null 2>&1; then
+  echo "Installing the website's preview dependencies…"
+  ruby "$BUNDLE" install --jobs 4
+fi
+
+if "$BUILD_ONLY"; then
+  exec ruby "$BUNDLE" exec jekyll build --config _config.yml,_config.preview.yml
+fi
+
+URL="http://127.0.0.1:4000/publications/"
+echo "Preview: $URL"
+echo "Save a file to rebuild and refresh the page. Press Control+C to stop."
+
+set -- serve --config _config.yml,_config.preview.yml --livereload
+if "$OPEN_BROWSER"; then
+  set -- "$@" --open-url
+fi
+exec ruby "$BUNDLE" exec jekyll "$@"
