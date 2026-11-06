@@ -1,5 +1,6 @@
 - name: Patrick Ebel
-  photo: Patrick.png
+  photo: Patrick-2026.jpg
+  circular_photo: true
   info: PhD, Assistant Professor
   email: patrick.ebel@hpi.de
   scholar: https://scholar.google.com/citations?user=nRW4gQQAAAAJ&hl=en
@@ -10,7 +11,8 @@
   education3: Naturalistic Driving Studies
 
 - name: Christine Buckley
-  photo: Tine.png
+  photo: Tine-2026.jpg
+  circular_photo: true
   info: Office Assistant
   email: office-ebel@hpi.de
   scholar:
@@ -21,18 +23,32 @@
   education3: Cooking
 
 - name: Lena Hegemann
-  photo: Lena.png
+  photo: Lena-2026.jpg
+  circular_photo: true
   info: PhD, PostDoc
   email: lena.hegemann@hpi.de
-  scholar:
+  scholar: https://scholar.google.com/citations?user=IY53EkcAAAAJ&hl=en&oi=ao
   github: https://github.com/ciao-group
   number_educ: 3
   education1: Human-AI interaction
   education2: AI Alignment
   education3: Creativity Support Tools
 
+- name: Christoph Johns
+  photo: ChristophJohns.jpg
+  circular_photo: true
+  info: PhD, PostDoc
+  email: christoph.johns@hpi.de
+  scholar: https://scholar.google.com/citations?user=OomHNRcAAAAJ&hl=en
+  github: https://github.com/christophajohns
+  number_educ: 3
+  education1: Interactive optimization
+  education2: Interactive ML
+  education3: Adapting user interfaces
+
 - name: Martin Lorenz
-  photo: Martin.png
+  photo: Martin-2026.jpg
+  circular_photo: true
   info: MSc, PhD Student
   email: lorenz@informatik.uni-leipzig.de
   scholar: https://scholar.google.com/citations?user=-60xUEMAAAAJ&hl=en&oi=ao
@@ -43,7 +59,8 @@
   education3: Situation Awareness
 
 - name: Michal Patryk Miazga
-  photo: Michal.png
+  photo: Michal-2026.jpg
+  circular_photo: true
   info: MSc, PhD Student
   email: miazga@informatik.uni-leipzig.de
   scholar: https://scholar.google.com/citations?user=vbfHPYIAAAAJ&hl=en
@@ -53,7 +70,8 @@
   education2: Biomechanical Modeling
 
 - name: Jan Hilbert
-  photo: Jan.png
+  photo: Jan-2026.jpg
+  circular_photo: true
   info: MSc, PhD Student
   email: jan.hilbert@uni-leipzig.de
   github: https://github.com/janosch676
@@ -62,7 +80,8 @@
   education2: Naturalistic Driving Studies
 
 - name: Lara Neubauer da Costa Schertel
-  photo: Lara.png
+  photo: Lara-2026.jpg
+  circular_photo: true
   info: MSc, PhD Student
   email: lara.schertel@hpi.de
   github: https://github.com/laraschertel
