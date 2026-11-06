@@ -1,7 +1,7 @@
 ---
 ---
     
-@import "bootstrap";
+@import "../_sass/bootstrap";
 
 /* Fluxbox: Added for publication page columns. */
 .flex-container {
@@ -217,7 +217,7 @@ firstp {
 
 .team-member-card {
   display: grid;
-  grid-template-columns: clamp(170px, 39%, 190px) minmax(0, 1fr);
+  grid-template-columns: 190px minmax(0, 1fr);
   align-items: center;
   gap: 18px;
   min-width: 0;
@@ -225,9 +225,8 @@ firstp {
 
 #gridid .team-member-card__photo {
   display: block;
-  width: 100%;
-  height: auto;
-  aspect-ratio: 1;
+  width: 190px;
+  height: 190px;
   object-fit: cover;
   object-position: center top;
   border-radius: 50%;
@@ -301,6 +300,11 @@ firstp {
   .team-member-card {
     grid-template-columns: 120px minmax(0, 1fr);
     gap: 14px;
+  }
+
+  #gridid .team-member-card__photo {
+    width: 120px;
+    height: 120px;
   }
 
   .team-member-card__links {
