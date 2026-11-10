@@ -5,65 +5,36 @@ sitemap: false
 permalink: /
 ---
 
-<style>
-code {padding: 6px 8px; font-size: 90%;}
-.row h2 {padding: 16px 16px}
-.row h4 {padding: 16px 16px}
-.row p {padding: 16px 16px}
-.hero {padding: 50px 0; border-radius: 10px;}
-.hero h1 {font-size: 3em;}
-.hero p {font-size: 1.2em; color: 333;}
-</style>
+<main class="editorial-home" markdown="0">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="home-hero__content">
+      <h1 id="home-title">CIAO <span aria-hidden="true">&#128075;</span></h1>
+      <p>We are the <strong>Professorship for Computational Interaction (CIAO)</strong>. We work at the intersection of machine learning, human-computer interaction and mobility. We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. Our models are either data-driven (based on usage data collected in the real-world or in experimental studies) or based on computational rationality and reinforcement learning.</p>
+      <a class="editorial-link" href="{{ '/research/' | relative_url }}">Explore our research <span aria-hidden="true">&rarr;</span></a>
+    </div>
 
-
-<div class="row">
-  <h2>CIAO &#128075; </h2>
-  <p>We are the <strong> Professorship for Computational Interaction (CIAO) </strong>. We work at the intersection of machine learning, human-computer interaction and mobility. We develop computational models that simulate human interaction behavior. These models can be used to evaluate user interfaces, predict how users interact with them and allow designers and researcher to better understand not only the users but also their design. Our models are either data-driven (based on usage data collected in the real-world or in experimental studies) or based on computational rationality and reinforcement learning. 
-  <br><br>
-  We recently moved to <a href="https://hpi.de/en/research/research-groups/computational-interaction/" target="_blank"> Hasso Plattner Institute </a> but are still affilated with the Center for <a href="https://scads.ai" target="_blank"> Scalable Data Analytics and Artificial Intelligence (ScaDS.AI) </a> at Leipzig University.
-</p>
-</div>
-
-
-<div class="research-overview" markdown="0">
-  <figure class="feature-photo research-model">
-    <img src="{{ '/images/home/biomechanical-model.webp' | relative_url }}" width="764" height="1080" alt="Biomechanical model interacting with a touchscreen device" decoding="async" fetchpriority="high">
-  </figure>
-  <div class="research-examples">
-    <figure class="feature-photo">
-      <img src="{{ '/images/home/visual-risk-analysis.webp' | relative_url }}" width="1059" height="589" alt="Driving scenes with visual attention heatmaps and a graph of risk ratings over time" decoding="async">
+    <figure class="home-hero__group-photo">
+      <img src="{{ '/images/home/ciao-discussion-1280.jpg' | relative_url }}" srcset="{{ '/images/home/ciao-discussion-640.jpg' | relative_url }} 640w, {{ '/images/home/ciao-discussion-1280.jpg' | relative_url }} 1280w" sizes="(max-width: 767px) 100vw, 44vw" width="1280" height="854" alt="Members of the CIAO group discussing their work outdoors" fetchpriority="high">
     </figure>
-    <figure class="feature-photo">
-      <img src="{{ '/images/home/cr-eyes-model.webp' | relative_url }}" width="1600" height="703" alt="CR-Eyes model architecture with human and simulated visual attention in an Atari game" decoding="async">
+  </section>
+
+  <section class="home-vision home-vision--stacked" aria-labelledby="home-vision-title">
+    <div class="home-vision__content">
+      <h2 id="home-vision-title">Our Vision</h2>
+      <p>At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning. Learn more about our research <a href="{{ '/research/' | relative_url }}">here</a>.</p>
+    </div>
+    <figure class="home-vision__diagram">
+      <img src="{{ '/images/home/vision.svg' | relative_url }}" width="3332" height="1640" alt="CIAO vision: simulated users for efficient user-centered design and alignment with human goals" loading="lazy">
     </figure>
-  </div>
-</div>
+  </section>
 
-
-[//]: # (<!-- Home Page Banner Image >-->)
-
-[//]: # (<img src="/images/slider/SCADSCIAO.png" alt="SCADS.AI Structure - CIAO Position" style="max-width: 80%; height: auto;">)
-
-
-<!-- Interview for a project called "Digital Mobile Classroom", which aims to promote computer science and AI for students in German schools. >-->
-
-<!-- <iframe id="frame-5777" src="https://player.vimeo.com/video/912193151?byline=0&portrait=0"" frameborder="0" allowfullscreen></iframe>  >-->
-
-
-
-<!-- Our Idea Section -->
-<div class="row">
-  <h4>Our Vision</h4>
-  <p>
-    At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning. Learn more about our research <a href="https://ciao-group.github.io/research/"> here</a>.
-  </p>
-
-</div>
-
-
-<div class="row" style="text-align:center">
-  <iframe style="display:inline-block; border-radius: 5px; border:0px solid #FFF; width: 95%; height: 400px" src="https://player.vimeo.com/video/912193151" frameborder="0" allowfullscreen=""></iframe>
-
-  <p>Interview for a project called "Digital Mobile Classroom", which aims to promote computer science and AI for students in German schools.
-  </p>
-</div>
+  <section class="home-video" aria-labelledby="home-video-title">
+    <header class="editorial-section-heading">
+      <h2 id="home-video-title">In Conversation</h2>
+    </header>
+    <div class="home-video__frame">
+      <iframe src="https://player.vimeo.com/video/912193151" title="Interview for the Digital Mobile Classroom project" loading="lazy" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="home-video__caption">Interview for a project called "Digital Mobile Classroom", which aims to promote computer science and AI for students in German schools.</p>
+  </section>
+</main>
