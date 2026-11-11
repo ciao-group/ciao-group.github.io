@@ -622,7 +622,6 @@ firstp {
 .home-vision__diagram img {
   height: auto;
   background: transparent;
-  mix-blend-mode: multiply;
 }
 
 .home-video {
@@ -1054,5 +1053,224 @@ firstp {
   .editorial-research * {
     scroll-behavior: auto !important;
     transition: none !important;
+  }
+}
+
+/* Openings: ordinary Markdown headings and lists become the page structure. */
+.openings-page {
+  float: none;
+  width: 94%;
+  max-width: 1040px;
+  margin: 48px auto 84px;
+  color: #1c1c1c;
+}
+
+.openings-page *,
+.openings-page *::before,
+.openings-page *::after {
+  box-sizing: border-box;
+}
+
+.openings-page__header {
+  max-width: 820px;
+  margin-bottom: 48px;
+}
+
+.openings-page__header h1 {
+  margin: 0;
+  color: #080808;
+  font-size: 46px;
+  font-weight: 650;
+  letter-spacing: -0.035em;
+  line-height: 1.08;
+}
+
+.openings-page__content {
+  max-width: 880px;
+}
+
+.openings-page__content h2 {
+  margin: 0 0 24px;
+  color: #111;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.openings-page__content h2:not(:first-child) {
+  margin-top: 64px;
+}
+
+.openings-page__content h4 {
+  margin: 0;
+  padding: 26px 30px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.65;
+  background: #f5f5f3;
+  border: 1px solid #e6e6e2;
+  border-left: 4px solid #333;
+  border-radius: 8px;
+}
+
+.openings-page__content h4 a {
+  font-weight: 600;
+}
+
+.openings-page__content hr {
+  height: 0;
+  margin: 60px 0 0;
+  border: 0;
+}
+
+.openings-page__content h3 {
+  max-width: 820px;
+  margin: 52px 0 20px;
+  padding-top: 44px;
+  color: #111;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.28;
+  border-top: 1px solid #deded9;
+}
+
+.openings-page__content h2 + h3 {
+  margin-top: 8px;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.openings-page__content h3 + p,
+.openings-page__content h3 + p + p {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 8px 12px 0;
+  padding: 7px 11px;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 1.35;
+  background: #f3f3f0;
+  border-radius: 5px;
+}
+
+.openings-page__content h3 + p strong,
+.openings-page__content h3 + p + p strong {
+  color: #222;
+  font-weight: 600;
+}
+
+.openings-page__content h3 + p + p + p {
+  margin-top: 10px;
+}
+
+.openings-page__content p {
+  max-width: 820px;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.openings-page__content p strong {
+  color: #222;
+}
+
+.openings-page__content a {
+  color: #222;
+  text-decoration: underline;
+  text-decoration-color: #aaa;
+  text-underline-offset: 3px;
+}
+
+.openings-page__content a:hover,
+.openings-page__content a:focus {
+  color: #000;
+  text-decoration-color: #222;
+}
+
+.openings-page__content ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  max-width: 820px;
+  padding: 0;
+  margin: 14px 0 0;
+  list-style: none;
+}
+
+.openings-page__content li {
+  min-width: 0;
+}
+
+.openings-page__content li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 13px 15px;
+  line-height: 1.45;
+  text-decoration: none;
+  background: #fafaf8;
+  border: 1px solid #e8e8e4;
+  border-radius: 6px;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.openings-page__content li a:hover,
+.openings-page__content li a:focus {
+  background: #f4f4f1;
+  border-color: #cfcfca;
+}
+
+@media (max-width: 767px) {
+  .openings-page {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 64px;
+  }
+
+  .openings-page__header {
+    margin-bottom: 38px;
+  }
+
+  .openings-page__header h1 {
+    font-size: 40px;
+  }
+
+  .openings-page__content h2 {
+    font-size: 27px;
+  }
+
+  .openings-page__content h2:not(:first-child) {
+    margin-top: 52px;
+  }
+
+  .openings-page__content h3 {
+    margin-top: 44px;
+    padding-top: 36px;
+    font-size: 23px;
+  }
+
+  .openings-page__content h4 {
+    padding: 22px;
+    font-size: 17px;
+  }
+
+  .openings-page__content ul {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .openings-page__header h1 {
+    font-size: 36px;
+  }
+
+  .openings-page__content h3 + p,
+  .openings-page__content h3 + p + p {
+    display: flex;
+    width: fit-content;
   }
 }

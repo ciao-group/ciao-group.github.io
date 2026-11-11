@@ -24,7 +24,7 @@ permalink: /
       <p>At <strong>CIAO</strong> our vision is to develop simulated users that accurately replicate human interactions with complex computing systems. These simulated users, which model cognition, perception, and motor control, can be used not only to evaluate interactive systems long before expensive experimental user testing, but also to build interactive systems that understand, predict, and adapt to human cognition and behavior. We aim to contribute to a better understanding of how humans interact with intelligent interfaces and transportation systems by developing new data-driven user models and evaluation methods <strong>(1)</strong> based on supervised machine learning and <strong>(2)</strong> based on the theory of computational rationality and reinforcement learning. Learn more about our research <a href="{{ '/research/' | relative_url }}">here</a>.</p>
     </div>
     <figure class="home-vision__diagram">
-      <img src="{{ '/images/home/vision.svg' | relative_url }}" width="3332" height="1640" alt="CIAO vision: simulated users for efficient user-centered design and alignment with human goals" loading="lazy">
+      <img src="{{ '/images/home/vision-1040.png' | relative_url }}" srcset="{{ '/images/home/vision-1040.png' | relative_url }} 1040w, {{ '/images/home/vision-2080.png' | relative_url }} 2080w" sizes="(max-width: 767px) 100vw, 1040px" width="2080" height="1024" alt="CIAO vision: simulated users for efficient user-centered design and alignment with human goals" loading="lazy">
     </figure>
   </section>
 

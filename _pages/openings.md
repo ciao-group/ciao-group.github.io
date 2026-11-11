@@ -1,6 +1,6 @@
 ---
 title: "Vacancies and Theses"
-layout: textlay
+layout: openings
 sitemap: false
 permalink: /openings
 ---
@@ -12,6 +12,8 @@ permalink: /openings
 
 ---
 ## Theses
+
+[//]: # (To add a thesis, use: ### Title, then bold Type of Thesis and Supervisor lines, normal description paragraphs, bold Related Literature, and a Markdown bullet list.)
 
 ### Biomechanical User Models for Two-Handed Typing on Touchscreen Devices using Reinforcement Learning
 
