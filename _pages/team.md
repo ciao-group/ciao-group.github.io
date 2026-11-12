@@ -82,6 +82,36 @@ permalink: /team/
 </div>
 
 
+## Guest Researchers
+
+<div class="team-grid guest-researchers-grid" markdown="0">
+{% for member in site.data.guest_researchers %}
+<article class="team-member-card">
+  <img class="team-member-card__photo" src="{{ '/images/teampic/' | append: member.photo | relative_url }}" alt="{{ member.name | escape }}" width="240" height="240" loading="lazy" decoding="async"{% if member.photo_position %} style="object-position: {{ member.photo_position }};"{% endif %}>
+  <div class="team-member-card__content">
+    <h4>{{ member.name }}</h4>
+    <p class="team-member-card__role"><i>{{ member.info }}</i></p>
+    <div class="team-member-card__links" aria-label="Links for {{ member.name | escape }}">
+      {% if member.website %}<a href="{{ member.website }}" target="_blank" rel="noopener" aria-label="{{ member.name | escape }} website"><i class="fa fa-home fa-2x" aria-hidden="true"></i></a>{% endif %}
+      {% if member.email %}<a href="mailto:{{ member.email }}" aria-label="Email {{ member.name | escape }}"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>{% endif %}
+      {% if member.scholar %}<a href="{{ member.scholar }}" target="_blank" rel="noopener" aria-label="{{ member.name | escape }} on Google Scholar"><i class="ai ai-google-scholar-square ai-2x" aria-hidden="true"></i></a>{% endif %}
+      {% if member.cv %}<a href="{{ member.cv }}" target="_blank" rel="noopener" aria-label="{{ member.name | escape }} curriculum vitae"><i class="ai ai-cv-square ai-2x" aria-hidden="true"></i></a>{% endif %}
+      {% if member.github %}<a href="{{ member.github }}" target="_blank" rel="noopener" aria-label="{{ member.name | escape }} on GitHub"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>{% endif %}
+      {% if member.researchgate %}<a href="{{ member.researchgate }}" target="_blank" rel="noopener" aria-label="{{ member.name | escape }} on ResearchGate"><i class="ai ai-researchgate-square ai-2x" aria-hidden="true"></i></a>{% endif %}
+    </div>
+    <p class="team-member-card__label"><i>Research Interests:</i></p>
+    <ul class="team-member-card__interests">
+      {% for interest_number in (1..member.number_educ) %}
+      {% assign interest_key = 'education' | append: interest_number %}
+      <li>{{ member[interest_key] }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
+{% endfor %}
+</div>
+
+
 ## Alumni
 
 <ul class="alumni-grid" markdown="0">

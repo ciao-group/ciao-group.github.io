@@ -1,0 +1,11 @@
+- name: Roderick Murray-Smith
+  photo: Roderick-Murray-Smith.png
+  circular_photo: true
+  photo_position: center 22%
+  info: Visiting Professor
+  email: Roderick.MurraySmith@guest.hpi.de
+  scholar: https://scholar.google.com/citations?user=laX7LzQAAAAJ&hl=en
+  number_educ: 3
+  education1: Computational Interaction
+  education2: Active Inference
+  education3: Dynamics and Interaction
